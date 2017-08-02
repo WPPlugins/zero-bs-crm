@@ -1,0 +1,2527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zero BS CRM\n"
+"POT-Creation-Date: 2017-02-02 11:53+0000\n"
+"PO-Revision-Date: 2017-02-10 18:52+0100\n"
+"Last-Translator: HenryGR <henrygr@gmail.com>\n"
+"Language-Team: Henry GR, Zero BS CRM Team\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __w;_we;_wx\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lang\n"
+
+#: ZeroBSCRM.php:853
+msgid "Trash Msg"
+msgstr "Mensaje basura"
+
+#: ZeroBSCRM.php:960 ZeroBSCRM.php:974
+msgid "Manage "
+msgstr "Administrar"
+
+#: ZeroBSCRM.php:967
+msgid "Needs a Quote"
+msgstr "Necesita presupuesto"
+
+#: ZeroBSCRM.php:979
+msgid "Search"
+msgstr "Buscar"
+
+#: ZeroBSCRM.php:1068 includes/ZeroBSCRM.AdminPages.php:310
+msgid "Manage Quotes"
+msgstr "Administrar presupuestos"
+
+#: ZeroBSCRM.php:1098 includes/ZeroBSCRM.CPTs.php:475
+#: includes/ZeroBSCRM.CPTs.php:477 includes/ZeroBSCRM.QuoteTemplate.list.php:36
+msgid "Quote Templates"
+msgstr "Plantillas de presupuestos"
+
+#: ZeroBSCRM.php:1115 includes/ZeroBSCRM.AdminPages.php:326
+msgid "Manage Invoices"
+msgstr "Administrar facturas"
+
+#: ZeroBSCRM.php:1147 includes/ZeroBSCRM.AdminPages.php:341
+msgid "Manage Transactions"
+msgstr "Administrar transacciones"
+
+#: ZeroBSCRM.php:1219 includes/ZeroBSCRM.AdminPages.php:306
+#: includes/ZeroBSCRM.CPTs.php:384 includes/ZeroBSCRM.CPTs.php:386
+#: includes/ZeroBSCRM.Export.php:60 includes/ZeroBSCRM.List.Customers.php:428
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:425
+#: includes/ZeroBSCRM.List.Quotes.php:35
+msgid "Quotes"
+msgstr "Presupuestos"
+
+#: ZeroBSCRM.php:1222 includes/ZeroBSCRM.AdminPages.php:322
+#: includes/ZeroBSCRM.CPTs.php:544 includes/ZeroBSCRM.CPTs.php:546
+#: includes/ZeroBSCRM.Export.php:54 includes/ZeroBSCRM.List.Customers.php:429
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:426
+#: includes/ZeroBSCRM.List.Invoices.php:36
+msgid "Invoices"
+msgstr "Facturas"
+
+#: ZeroBSCRM.php:1225 includes/ZeroBSCRM.AdminPages.php:337
+#: includes/ZeroBSCRM.CPTs.php:650 includes/ZeroBSCRM.CPTs.php:651
+#: includes/ZeroBSCRM.CPTs.php:652 includes/ZeroBSCRM.CPTs.php:668
+#: includes/ZeroBSCRM.List.Customers.php:430
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:427
+#: includes/ZeroBSCRM.List.Transactions.php:36
+msgid "Transactions"
+msgstr "Transacciones"
+
+#: ZeroBSCRM.php:1240 includes/ZeroBSCRM.AdminPages.php:352
+#: includes/ZeroBSCRM.CPTs.php:697 includes/ZeroBSCRM.CPTs.php:699
+msgid "Forms"
+msgstr "Formularios"
+
+#: includes/ZeroBSCRM.AJAX.php:623
+msgid "Proposal Accepted"
+msgstr "Presupuesto aprovado"
+
+#: includes/ZeroBSCRM.AdminPages.php:71 includes/ZeroBSCRM.AdminPages.php:600
+#: includes/ZeroBSCRM.AdminPages.php:861 includes/ZeroBSCRM.AdminPages.php:882
+#: includes/ZeroBSCRM.AdminPages.php:903 includes/ZeroBSCRM.AdminPages.php:1048
+#: includes/ZeroBSCRM.AdminPages.php:1163
+#: includes/ZeroBSCRM.AdminPages.php:1186
+#: includes/ZeroBSCRM.AdminPages.php:1220
+#: includes/ZeroBSCRM.AdminPages.php:1244
+#: includes/ZeroBSCRM.AdminStyling.php:331
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene suficientes permisos para acceder a esta pagina."
+
+#: includes/ZeroBSCRM.AdminPages.php:81
+msgid "Support Page"
+msgstr "Pagina de soporte"
+
+#: includes/ZeroBSCRM.AdminPages.php:81
+msgid "Support"
+msgstr "Soporte"
+
+#: includes/ZeroBSCRM.AdminPages.php:83
+msgid "More Plugins"
+msgstr "Más Plugins"
+
+#: includes/ZeroBSCRM.AdminPages.php:83
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: includes/ZeroBSCRM.AdminPages.php:84
+msgid "Get Notified About Updates"
+msgstr "Sea notificado de actualizaciones"
+
+#: includes/ZeroBSCRM.AdminPages.php:86
+msgid "View Active Plugins"
+msgstr "Ver Plugins activos"
+
+#: includes/ZeroBSCRM.AdminPages.php:86
+msgid "Manage Extensions"
+msgstr "Administrar extensionesPrevio"
+
+#: includes/ZeroBSCRM.AdminPages.php:138
+msgid "Previous"
+msgstr "Previo"
+
+#: includes/ZeroBSCRM.AdminPages.php:139
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/ZeroBSCRM.AdminPages.php:185
+msgid "First"
+msgstr "Primero"
+
+#: includes/ZeroBSCRM.AdminPages.php:187
+msgid "previous"
+msgstr "previo"
+
+#: includes/ZeroBSCRM.AdminPages.php:202
+msgid "next"
+msgstr "siguiente"
+
+#: includes/ZeroBSCRM.AdminPages.php:206
+msgid "Last"
+msgstr "Último"
+
+#: includes/ZeroBSCRM.AdminPages.php:274
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: includes/ZeroBSCRM.AdminPages.php:276
+msgid "View your WordPress Dashboard"
+msgstr "Ver su Escritorio de WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:278
+msgid "View Dashboard"
+msgstr "Ver el Escritorio"
+
+#: includes/ZeroBSCRM.AdminPages.php:288 includes/ZeroBSCRM.CPTs.php:93
+#: includes/ZeroBSCRM.CPTs.php:95 includes/ZeroBSCRM.List.Customers.php:41
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:39
+msgid "Customers"
+msgstr "Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:290
+msgid "Manage your customers here"
+msgstr "Asministre sus clientes aquí"
+
+#: includes/ZeroBSCRM.AdminPages.php:292
+msgid "Manage Customers"
+msgstr "Administrar Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:293 includes/ZeroBSCRM.CPTs.php:53
+#: includes/ZeroBSCRM.CPTs.php:55
+msgid "Customer Tags"
+msgstr "Etiquetas de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:294
+msgid "Customer Search"
+msgstr "Busqueda de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:295
+msgid "Add Extra Customer Fields"
+msgstr "Añadir Campos de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:308
+msgid "Manage your quotes here"
+msgstr "Administre sus Presupuestos aquí"
+
+#: includes/ZeroBSCRM.AdminPages.php:324
+msgid "Manage your invoices here"
+msgstr "Administre sus facturas aquí"
+
+#: includes/ZeroBSCRM.AdminPages.php:339
+msgid "Add transactions to your CRM"
+msgstr "Añadir Transacciones a su CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:354
+msgid "Setup your front end forms here"
+msgstr "Ajuste aquí sus formularios"
+
+#: includes/ZeroBSCRM.AdminPages.php:356
+msgid "Manage Forms"
+msgstr "Administre Formularios"
+
+#: includes/ZeroBSCRM.AdminPages.php:367 includes/ZeroBSCRM.AdminPages.php:371
+msgid "Data Tools"
+msgstr "Herramientas de Datos"
+
+#: includes/ZeroBSCRM.AdminPages.php:369
+msgid "Import and Export your CRM data"
+msgstr "Importar y Exportar sus datos de CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:380
+msgid "Sync Tools"
+msgstr "Herramientas de sicronizado"
+
+#: includes/ZeroBSCRM.AdminPages.php:382
+msgid "Sync your CRM with our Sync tools"
+msgstr "Sincronice su CRM con nuestras herramientas de Sincronizado"
+
+#: includes/ZeroBSCRM.AdminPages.php:404
+msgid "Mail Campaigns"
+msgstr "Campañas de Correo"
+
+#: includes/ZeroBSCRM.AdminPages.php:406
+msgid "Send your customers targetted emails"
+msgstr "Enviar sus Correos a los Clientes Destinados"
+
+#: includes/ZeroBSCRM.AdminPages.php:408
+msgid "Mail Campaings"
+msgstr "Campañas de Correo"
+
+#: includes/ZeroBSCRM.AdminPages.php:420 includes/ZeroBSCRM.AdminPages.php:424
+msgid "Sales Dashboard"
+msgstr "Escritorio de Ventas"
+
+#: includes/ZeroBSCRM.AdminPages.php:422
+msgid "View your transaction history in an awesome sales dashboard"
+msgstr "Vea la historia de Transacciones en un espléndido escritorio de Ventas"
+
+#: includes/ZeroBSCRM.AdminPages.php:435
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1135
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/ZeroBSCRM.AdminPages.php:437 includes/ZeroBSCRM.AdminPages.php:439
+msgid "Setup your CRM"
+msgstr "Ajustar su CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:575
+msgid ""
+"Zero BS CRM is the ultimate CRM tool for WordPress. Help us get the word out "
+"and show some love... You know what to do 😍"
+msgstr ""
+"El CRM Zero BS CRM es la más avanzada herramienta para WordPress. Ayudenos a "
+"difundir la voz y muestre un poco de cariño... Ya sabe qué hacer 😍"
+
+#: includes/ZeroBSCRM.AdminPages.php:1193
+msgid "Keep your Transactions in Sync"
+msgstr "Mantenga sus Transacciones Sincronizadas"
+
+#: includes/ZeroBSCRM.AdminPages.php:1195
+msgid ""
+"Welcome to the Zero BS Sync Core. Here you can sync your transactions easily"
+msgstr ""
+"Bienvenido al Centro de Sincronísmo de Zero BS. Aquí podrá sus transacciones "
+"fácilmente"
+
+#: includes/ZeroBSCRM.AdminPages.php:1359
+msgid "View Settings"
+msgstr "Ver Ajustes"
+
+#: includes/ZeroBSCRM.AdminPages.php:1360
+msgid "Read Documentation"
+msgstr "Leer Documentación"
+
+#: includes/ZeroBSCRM.AdminPages.php:1361
+msgid "Get Updates"
+msgstr "Consiga Actualizaciones"
+
+#: includes/ZeroBSCRM.AdminPages.php:1383
+msgid "Bulk Tools"
+msgstr "Herramientas de lote"
+
+#: includes/ZeroBSCRM.AdminPages.php:1393
+msgid "CSV Importer"
+msgstr "Importador CSV"
+
+#: includes/ZeroBSCRM.AdminPages.php:1408
+msgid "View Available ZBS Import Tools"
+msgstr "Ver las Herramientas ZBS de Importación disponibles"
+
+#: includes/ZeroBSCRM.AdminPages.php:1412
+msgid ""
+"Alternative you can run a customer search and then export all data related "
+"to your customer search results"
+msgstr ""
+"Alternativamente puede ejecutar una búsqueda de clientes y luego exportar "
+"todos los datos relacionados a los resultados de la búsqueda"
+
+#: includes/ZeroBSCRM.AdminPages.php:1777
+#: includes/ZeroBSCRM.AdminPages.php:1788
+#: includes/ZeroBSCRM.AdminPages.php:2550
+#: includes/ZeroBSCRM.AdminPages.php:2736
+#: includes/ZeroBSCRM.AdminPages.php:3072
+#: includes/ZeroBSCRM.AdminPages.php:3224
+#: includes/ZeroBSCRM.AdminPages.php:3916
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/ZeroBSCRM.AdminPages.php:1831
+msgid "Back to Bulk Tools"
+msgstr "Regresar a las Herramientas de lotes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2108
+#: includes/ZeroBSCRM.AdminPages.php:2601
+#: includes/ZeroBSCRM.AdminPages.php:2816
+#: includes/ZeroBSCRM.AdminPages.php:3121
+msgid "Reset Settings to Defaults?"
+msgstr "Reiniciar los ajustes por defecto"
+
+#: includes/ZeroBSCRM.AdminPages.php:2109
+#: includes/ZeroBSCRM.AdminPages.php:2602
+#: includes/ZeroBSCRM.AdminPages.php:2817
+#: includes/ZeroBSCRM.AdminPages.php:3122
+msgid "Reset All Zero BS CRM Settings?"
+msgstr "Reiniciar Todos los ajustes de Zero BS CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:2110
+#: includes/ZeroBSCRM.AdminPages.php:2603
+#: includes/ZeroBSCRM.AdminPages.php:2818
+#: includes/ZeroBSCRM.AdminPages.php:3123
+msgid "Are you sure you want to reset these settings to the defaults?"
+msgstr "¿Está seguro de querer Reiniciar los Ajustes a su defecto?"
+
+#: includes/ZeroBSCRM.AdminPages.php:2111
+#: includes/ZeroBSCRM.AdminPages.php:2604
+#: includes/ZeroBSCRM.AdminPages.php:2819
+#: includes/ZeroBSCRM.AdminPages.php:3124
+msgid ""
+"Once you reset these settings you cannot retrieve your previous settings."
+msgstr "Una vez que reinicie los Ajustes no podrá volver a los ajustes previos"
+
+#: includes/ZeroBSCRM.AdminPages.php:2142
+msgid "Rebuild Customer Titles?"
+msgstr "Reconstruir Títulos de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2143
+msgid "Rebuild All Zero BS CRM Customer Titles?"
+msgstr "Reconstruir Todos los Títulos de Clientes en Zero BS CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:2144
+msgid "Are you sure you want to rebuild these titles?"
+msgstr "¿Está seguro que quiere reconstruir estos Títulos?"
+
+#: includes/ZeroBSCRM.AdminPages.php:2145
+msgid ""
+"This routine will try and rebuild all titles at once, if you have many "
+"thousands this might be a problem."
+msgstr ""
+"Esta rutina intentará reconstruir todos los títulos de una vez, si tiene "
+"usted varios miles puede ser un problema."
+
+#: includes/ZeroBSCRM.AdminPages.php:2168
+msgid ""
+"From this page you can choose global settings for Zero BS CRM, and using the "
+"tabs above you can setup different"
+msgstr ""
+"Desde esta pagina puede cambiar ajustes globales de Zero BS CRM,usando las "
+"pestañas superiores puede ajustar diferentes "
+
+#: includes/ZeroBSCRM.AdminPages.php:2170
+#: includes/ZeroBSCRM.AdminPages.php:2633
+#: includes/ZeroBSCRM.AdminPages.php:2852
+#: includes/ZeroBSCRM.AdminPages.php:3153
+msgid "Settings Updated"
+msgstr "Ajustes Actualizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:2171
+#: includes/ZeroBSCRM.AdminPages.php:2634
+#: includes/ZeroBSCRM.AdminPages.php:2853
+#: includes/ZeroBSCRM.AdminPages.php:3154
+msgid "Settings Reset"
+msgstr "Reiniciar Ajustes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2218
+msgid "General Settings"
+msgstr "Ajustes Generales"
+
+#: includes/ZeroBSCRM.AdminPages.php:2241
+msgid "Currency"
+msgstr "Moneda"
+
+#: includes/ZeroBSCRM.AdminPages.php:2254
+msgid "Show Customer Address Fields"
+msgstr "Mostrar Campos de Dirección de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2254
+msgid "Untick to hide the address fields (useful for online business)"
+msgstr ""
+"Desmarcar para ocultar los campos de Dirección (útil para negocios online)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2259
+msgid "Second Address Fields"
+msgstr "Campo de Dirección Secundario"
+
+#: includes/ZeroBSCRM.AdminPages.php:2259
+msgid "Allow editing of a \"second address\" against a customer"
+msgstr "Permitir la edición de \"dirección secundaria\" del cliente"
+
+#: includes/ZeroBSCRM.AdminPages.php:2264
+msgid "Use \"Countries\" in Address Fields"
+msgstr "Usar \"Paises\" en los campos de Dirección"
+
+#: includes/ZeroBSCRM.AdminPages.php:2264
+msgid "Untick to hide country from address fields (useful for local business)"
+msgstr ""
+"Desmarcar para ocultar el país en los campos de dirección (útil para "
+"negocios locales)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2269
+msgid "B2B Mode"
+msgstr "Módo B2B"
+
+#: includes/ZeroBSCRM.AdminPages.php:2269
+msgid ""
+"Adds a \"company or organisation\" level to customers (allowing you to store "
+"contacts at a company)"
+msgstr ""
+"Añadir un nivel de \"compañía u organización\" en los clientes "
+"(permitiendole guardar contactos en una compañía)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2274
+msgid "Company Label"
+msgstr "Etiqueta Compañía"
+
+#: includes/ZeroBSCRM.AdminPages.php:2274
+msgid ""
+"Should ZBS use the label \"Company\" or \"Organisation\" for your B2B setup?"
+msgstr ""
+"¿ZBS debería usar la etiqueta \"Compañía\" u \"Organización\" en los ajustes "
+"de B2B?"
+
+#: includes/ZeroBSCRM.AdminPages.php:2284
+msgid "Show 'Needs a Quote' section"
+msgstr "Mostrar la sección \"Necesita Presupuesto\""
+
+#: includes/ZeroBSCRM.AdminPages.php:2284
+msgid ""
+"Adds a page to Customers menu to show customers added which do not have "
+"quotes attached, (and are not marked 'Refused' or 'Blacklisted')"
+msgstr ""
+"Añadir una pagina al menú de clientes para mostrar los clientes añadidos que "
+"no tengan presupuestos adjuntos (y que no estén marcados como \"rechazado\" "
+"o \"bloqueado\")."
+
+#: includes/ZeroBSCRM.AdminPages.php:2289
+msgid "Quote Number Offset"
+msgstr "Desplazamiento del Número de Presupuesto"
+
+#: includes/ZeroBSCRM.AdminPages.php:2289
+msgid ""
+"Setting this value will offset your quote numbers. E.g. adding 1000 here "
+"will make a quote number 1000+it's actual number"
+msgstr ""
+"Ajustando este valor, desplazará el número de sus presupuestos. P.ej. "
+"poniendo 1000 aquí, hará que los presupuestos estén numerados con su número "
+"más 1000"
+
+#: includes/ZeroBSCRM.AdminPages.php:2294
+msgid "Invoice Number Offset"
+msgstr "Desplazamiento del número de Factura"
+
+#: includes/ZeroBSCRM.AdminPages.php:2294
+msgid ""
+"Setting this value will offset your invoice numbers. E.g. adding 1000 here "
+"will make a invoice number 1000+it's actual number"
+msgstr ""
+"Ajustando este valor, desplazará el número de sus facturas. P.ej. poniendo "
+"1000 aquí, hará que las facturas estén numeradas con su número más 1000"
+
+#: includes/ZeroBSCRM.AdminPages.php:2299
+msgid "Allow Override of Invoice Numbers"
+msgstr "Permitir la reasignación de Número de Factura"
+
+#: includes/ZeroBSCRM.AdminPages.php:2299
+msgid "Allows the editing of Invoice Numbers"
+msgstr "Permitir la edición de Número de Factura"
+
+#: includes/ZeroBSCRM.AdminPages.php:2312
+msgid "WordPress Menu Layout"
+msgstr "Disposición del Escritorio de WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:2320
+msgid "Menu Layout"
+msgstr "Disposición del Menú"
+
+#: includes/ZeroBSCRM.AdminPages.php:2320
+msgid "How do you want your WordPress Admin Menu to Display?"
+msgstr "¿Cómo quiere que se presente el menú de Administración de WordPress?"
+
+#: includes/ZeroBSCRM.AdminPages.php:2324
+msgid "Full"
+msgstr "Completo"
+
+#: includes/ZeroBSCRM.AdminPages.php:2325
+msgid "Slimline"
+msgstr "Mínima Expresión"
+
+#: includes/ZeroBSCRM.AdminPages.php:2326
+msgid "CRM Only"
+msgstr "Sólo CRM"
+
+#: includes/ZeroBSCRM.AdminPages.php:2339
+msgid "WordPress Override Mode"
+msgstr "Modo de Reasignación de WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:2347
+msgid "Login Logo Override"
+msgstr "Reasignación de Logotipo de Acceso"
+
+#: includes/ZeroBSCRM.AdminPages.php:2347
+msgid ""
+"Enter an URL here, or upload a logo to override the WordPress login logo!"
+msgstr ""
+"Entre aquí una URL o, suba un logotipo para reemplazar el logotipo de Acceso"
+
+#: includes/ZeroBSCRM.AdminPages.php:2355
+msgid "Override WordPress"
+msgstr "Reemplazar WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:2355
+msgid ""
+"Enabling this setting hides the WordPress header and Dashboard for users "
+"assigned ZeroBS CRM roles"
+msgstr ""
+"Habilitando este ajuste esconderás la cabecera de WordPress y el escritorio, "
+"para los usuarios que tengan asignados papeles en ZeroBS CRM."
+
+#: includes/ZeroBSCRM.AdminPages.php:2360
+msgid "Override WordPress (For All WP Users)"
+msgstr "Reemplazar WordPress (para todos los usuarios)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2360
+msgid ""
+"Enabling this setting hides the WordPress header and Dashboard for all "
+"WordPress Users"
+msgstr ""
+"Habilitando este ajuste esconderás la cabecera de WordPress y el escritorio, "
+"para todos los usuarios"
+
+#: includes/ZeroBSCRM.AdminPages.php:2365
+msgid "Custom CRM Header"
+msgstr "Cabecera de CRM personalizada"
+
+#: includes/ZeroBSCRM.AdminPages.php:2365
+msgid ""
+"Naming your CRM with the above 'Override WordPress' option selected will "
+"show a custom header with that name"
+msgstr ""
+"Asignando a su CRM el nombre en la opción 'Reemplazar WordPress' hará "
+"aparecer una cabecera personalizada con ese nombre"
+
+#: includes/ZeroBSCRM.AdminPages.php:2370
+msgid "Disable Front-End"
+msgstr "Deshabilitar Interfaz"
+
+#: includes/ZeroBSCRM.AdminPages.php:2370
+msgid ""
+"Enabling this setting will disable the front-end of this WordPress install, "
+"(redirecting it to your login url!)"
+msgstr ""
+"Habilitando este ajuste deshabilitará el interfaz de instalación de "
+"WordPress (¡redirigiéndole a la URL de acceso!)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2375
+msgid "Show Footer Message"
+msgstr "Mostrar mensaje en el Pie"
+
+#: includes/ZeroBSCRM.AdminPages.php:2375
+msgid "Show or Hide \"Thanks for using Zero BS CRM\""
+msgstr "Mostrar o esconder: \"Gracias por usar Zero BS CRM\""
+
+#: includes/ZeroBSCRM.AdminPages.php:2388
+msgid "File Attachment Settings"
+msgstr "Ajustes de Archivos Adjuntos"
+
+#: includes/ZeroBSCRM.AdminPages.php:2397
+msgid "Accepted Upload File Types"
+msgstr "Typos de Archivo Adjunto permitidos"
+
+#: includes/ZeroBSCRM.AdminPages.php:2397
+msgid ""
+"This setting specifies which file types are acceptable for uploading against "
+"customers, quotes, or invoices."
+msgstr ""
+"Este ajuste determina los tipos de archivo aceptados para adjuntar a los "
+"clientes,presupuestos o  facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:2415
+msgid "Auto-logging Settings"
+msgstr "Ajustes de Auto-Ingreso"
+
+#: includes/ZeroBSCRM.AdminPages.php:2426
+msgid "Auto-log: "
+msgstr "Auto Log:"
+
+#: includes/ZeroBSCRM.AdminPages.php:2441
+#: includes/ZeroBSCRM.AdminPages.php:2682
+#: includes/ZeroBSCRM.AdminPages.php:3018
+#: includes/ZeroBSCRM.AdminPages.php:3195
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2454
+msgid "Extra Tools"
+msgstr "Herramientas Extra"
+
+#: includes/ZeroBSCRM.AdminPages.php:2462
+msgid "Restore default settings"
+msgstr "Reiniciar ajustes por defecto"
+
+#: includes/ZeroBSCRM.AdminPages.php:2463
+msgid "Rebuild Customer Titles"
+msgstr "Reconstruir Títulos de Clientes"
+
+#: includes/ZeroBSCRM.AdminPages.php:2631
+msgid "From this page you can modify the settings for ZBS CRM Front-end Forms."
+msgstr ""
+"Desde esta pagina puede modificar los ajustes del Interfaz de Formularios de "
+"ZBS CRM."
+
+#: includes/ZeroBSCRM.AdminPages.php:2648
+msgid "Forms Settings"
+msgstr "Ajustes de Formularios"
+
+#: includes/ZeroBSCRM.AdminPages.php:2656
+#: includes/ZeroBSCRM.AdminPages.php:3181
+msgid "Show powered by ZBS"
+msgstr "Mostrar con tecnología de ZBS"
+
+#: includes/ZeroBSCRM.AdminPages.php:2656
+msgid "Help show us some love by displaying the powered by on your forms"
+msgstr ""
+"Ayúdenos y muéstrenos algo de cariño mostrando el con tecnología de en sus "
+"formularios"
+
+#: includes/ZeroBSCRM.AdminPages.php:2660
+msgid "Enable reCaptcha"
+msgstr "Habilitar reCaptcha"
+
+#: includes/ZeroBSCRM.AdminPages.php:2660
+msgid ""
+"This setting enabled reCaptcha for your front end forms. If you'd like to "
+"use this to avoid spam, please sign up for a site key and secret"
+msgstr ""
+"Este ajuste habilita el reCaptcha en el interfaz de sus formularios. Si "
+"quiere usar esto para evitar spam, por favor obtenga una clave de sitio y "
+"secreta."
+
+#: includes/ZeroBSCRM.AdminPages.php:2664
+msgid "reCaptcha Site Key"
+msgstr "reCaptcha Clave del Sitio"
+
+#: includes/ZeroBSCRM.AdminPages.php:2668
+msgid "reCaptcha Site Secret"
+msgstr "reCaptcha Clave Secreta"
+
+#: includes/ZeroBSCRM.AdminPages.php:2850
+msgid ""
+"Setup and control how the invoicing functionality works in your ZBS CRM. If "
+"you have any feedback on our invoicing functionality please do let us know."
+msgstr ""
+"Ajuste y controle la funcionalidad de Facturación en su ZBS CRM. Si tiene "
+"algún comentario sobre la funcionalidad de Fecturación, déjenos saber."
+
+#: includes/ZeroBSCRM.AdminPages.php:2866
+msgid "Your Business Logo"
+msgstr "Logotipo de su negocio"
+
+#: includes/ZeroBSCRM.AdminPages.php:2871
+msgid "Default Invoice Logo"
+msgstr "Logotipo por defecto en sus facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:2871
+msgid "Enter an URL here, or upload a default logo to use on your invoices!"
+msgstr "Entre aquí una URL, o suba el logotipo por defecto para sus facturas."
+
+#: includes/ZeroBSCRM.AdminPages.php:2897
+msgid "Invoicing Pro"
+msgstr "Facturación Pro"
+
+#: includes/ZeroBSCRM.AdminPages.php:2905
+msgid "Your PayPal Business Email"
+msgstr "Su correo de negocio en PayPal"
+
+#: includes/ZeroBSCRM.AdminPages.php:2905
+msgid "Your email for paypal (must be a business account)"
+msgstr "Su correo para PayPal (debe ser una cuenta de negocio)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2923
+msgid "Your Business Information"
+msgstr "La información de su negocio"
+
+#: includes/ZeroBSCRM.AdminPages.php:2931
+msgid "Your Business Name"
+msgstr "Nombre de su negocio"
+
+#: includes/ZeroBSCRM.AdminPages.php:2931
+#: includes/ZeroBSCRM.AdminPages.php:2936
+#: includes/ZeroBSCRM.AdminPages.php:2941
+#: includes/ZeroBSCRM.AdminPages.php:2946
+#: includes/ZeroBSCRM.AdminPages.php:2951
+msgid "This information is (optionally) added to your invoice"
+msgstr "Esta información se añadirá (opcionalmente) a sus factura"
+
+#: includes/ZeroBSCRM.AdminPages.php:2936
+msgid "Your Name"
+msgstr "Su Nombre"
+
+#: includes/ZeroBSCRM.AdminPages.php:2941
+msgid "Your Contact Email"
+msgstr "Su correo de contacto"
+
+#: includes/ZeroBSCRM.AdminPages.php:2946
+msgid "Your website URL"
+msgstr "La URL de su sitio web"
+
+#: includes/ZeroBSCRM.AdminPages.php:2951
+msgid "Extra Info"
+msgstr "Información Extra"
+
+#: includes/ZeroBSCRM.AdminPages.php:2965
+msgid "Invoice Email Settings"
+msgstr "Ajustes de Correo en Facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:2973
+msgid "Invoice from email"
+msgstr "Correo Origen en las Facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:2973
+msgid ""
+"The from email when you send out your email (e.g. invoicing@yourdomain.com)"
+msgstr ""
+"El correo origen cuando envía sus correos (P.Ej. fuacturación@empresa.com)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2978
+msgid "Invoice from name"
+msgstr "Nombre del correo Origen"
+
+#: includes/ZeroBSCRM.AdminPages.php:2978
+msgid ""
+"The name people will see on their email from (e.g. Notification via YourSite"
+msgstr ""
+"El nombre que el receptor verá en su correo (P.Ej. Notificación de ...)"
+
+#: includes/ZeroBSCRM.AdminPages.php:2990
+msgid "Invoice Fields"
+msgstr "Campos de Facturación"
+
+#: includes/ZeroBSCRM.AdminPages.php:2997
+msgid "Show tax on invoices"
+msgstr "Mostrar Impuestos en las Facturas."
+
+#: includes/ZeroBSCRM.AdminPages.php:2997
+msgid "Tick if you need to charge tax"
+msgstr "Marque si necesita incluir impuestos"
+
+#: includes/ZeroBSCRM.AdminPages.php:3001
+msgid "Show discount on invoices"
+msgstr "Mostrar descuentos en las facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:3001
+msgid "Tick if you want to add discounts"
+msgstr "Marque si quiere añadir descuentos"
+
+#: includes/ZeroBSCRM.AdminPages.php:3005
+msgid "Show P&P on invoices"
+msgstr "Mostrar Gastos de Envío en las facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:3005
+msgid "Tick if you want to add postage and packaging"
+msgstr "Marque si quiere incluir Gastos de Envío"
+
+#: includes/ZeroBSCRM.AdminPages.php:3151
+msgid "Choose your default settings for the ZBS Quote Builder!"
+msgstr "Escoja los ajustes por defecto del constructor de presupuestos de ZBS"
+
+#: includes/ZeroBSCRM.AdminPages.php:3168
+msgid "Quotes Settings"
+msgstr "Ajustes de Presupuestos"
+
+#: includes/ZeroBSCRM.AdminPages.php:3176
+msgid "Enable Quote Builder"
+msgstr "Habilitar el constructor de Presupuestos."
+
+#: includes/ZeroBSCRM.AdminPages.php:3176
+msgid ""
+"Disabling this will remove the quote-writing element of Quotes. This is "
+"useful if you're only using ZBS to log quotes, not write them."
+msgstr ""
+"Deshabilitando esto eliminará el elemento constructor de Presupuestos. Esto "
+"es útil si usa ZBS sólo para guardar presupuestos, no para escribirlos."
+
+#: includes/ZeroBSCRM.AdminPages.php:3181
+msgid ""
+"Show us some love by displaying (tiny at the bottom), 'Powered by ZBSCRM'"
+msgstr ""
+"Muestrenos algo de cariño mostrando (en pequeño abajo) 'Con tecnología de "
+"ZBSCRM'"
+
+#: includes/ZeroBSCRM.AdminPages.php:3245
+msgid ""
+"This page allows easy access for the various system status variables related "
+"to your WordPress install and Zero BS CRM."
+msgstr ""
+"Esta pagina permite un acceso fácil a varias variables del sistema "
+"relacionadas con la instalación de Zero BS CRM en su WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:3272
+msgid "Zero BS Environment"
+msgstr "Entorno de Zero BS"
+
+#: includes/ZeroBSCRM.AdminPages.php:3320
+msgid "Server Environment"
+msgstr "Entorno de Servidor"
+
+#: includes/ZeroBSCRM.AdminPages.php:3363
+msgid "WordPress Environment"
+msgstr "Entorno de WordPress"
+
+#: includes/ZeroBSCRM.AdminPages.php:3410
+msgid "Zero BS Migrations Completed"
+msgstr "Migración de Zero BS completada"
+
+#: includes/ZeroBSCRM.AdminPages.php:3427
+msgid "Migration: "
+msgstr "Migración:"
+
+#: includes/ZeroBSCRM.AdminPages.php:3613
+msgid ""
+"Using this page you can add or edit custom fields associated with Customers, "
+"Companies, Quotes or Invoices"
+msgstr ""
+"Usando esta pagina usted puede añadir o editar campos personalizados "
+"asociados con Clientes, Empresas, Presupuestos o Facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:3615
+msgid "Custom Fields Updated"
+msgstr "Campos personalizados actualizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3627
+msgid "Addresses: Custom Fields"
+msgstr "Direcciones: Campos personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3646
+msgid "Customers: Custom Fields"
+msgstr "Clientes: Campos personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3665
+msgid ": Custom Fields"
+msgstr ":Campos Personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3684
+msgid "Quotes: Custom Fields"
+msgstr "Presupuestos: Campos personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3703
+msgid "Invoices: Custom Fields"
+msgstr "Facturas: Campos personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3722
+msgid "Save Custom Fields"
+msgstr "Guardar Campos Personalizados"
+
+#: includes/ZeroBSCRM.AdminPages.php:3991
+msgid ""
+"Using this page you can modify the order of the fields associated with "
+"Customers, Companies, Quotes or Invoices"
+msgstr ""
+"Usando esta pagina podrá cambiar el orden de los campos asociados a "
+"Clientes, Empresas, Presupuestos o Facturas"
+
+#: includes/ZeroBSCRM.AdminPages.php:3993
+msgid "Field Orders Updated"
+msgstr "Orden de Campos Actualizado"
+
+#: includes/ZeroBSCRM.AdminPages.php:4072
+msgid "Custom Field"
+msgstr "Campo Personalizado"
+
+#: includes/ZeroBSCRM.AdminPages.php:4105
+msgid "Save Field Sorts"
+msgstr "Guardar Campos Ordenados"
+
+#: includes/ZeroBSCRM.AdminStyling.php:70
+#, php-format
+msgid "Customer updated. <a href=\"%s\">Back to Customers</a>"
+msgstr "Cliente actualizado. <a href=\"%s\">Volver a Clientes</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:71
+#: includes/ZeroBSCRM.AdminStyling.php:73
+msgid "Customer updated."
+msgstr "Cliente Actualizado"
+
+#: includes/ZeroBSCRM.AdminStyling.php:72
+msgid "Customer field deleted."
+msgstr "Campo de cliente eliminado"
+
+#. translators: %s: date and time of the revision
+#: includes/ZeroBSCRM.AdminStyling.php:75
+#, php-format
+msgid "Customer restored to revision from %s"
+msgstr "Revisión de Cliente restaurada a %s"
+
+#: includes/ZeroBSCRM.AdminStyling.php:76
+#, php-format
+msgid "Customer added. <a href=\"%s\">Back to Customers</a>"
+msgstr "Cliente añadido. <a href=\"%s\">Volver a Clientes</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:77
+msgid "Customer saved."
+msgstr "Cliente Guardado"
+
+#: includes/ZeroBSCRM.AdminStyling.php:78
+#, php-format
+msgid ""
+"Customer submitted. <a target=\"_blank\" href=\"%s\">Back to Customers</a>"
+msgstr ""
+"Cliente enviado. <a target=\"_blank\"  href=\"%s\">Volver a Clientes</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:80
+#, php-format
+msgid ""
+"Customer draft updated. <a target=\"_blank\" href=\"%s\">Back to Customers</"
+"a>"
+msgstr ""
+"Borrador de Cliente actualizado. <a target=\"_blank\"  href=\"%s\">Volver a "
+"Clientes</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:91
+#, php-format
+msgid " updated. <a href=\"%s\">Back to "
+msgstr " actualizado. <a href=\"%s\">Volver a "
+
+#: includes/ZeroBSCRM.AdminStyling.php:92
+#: includes/ZeroBSCRM.AdminStyling.php:94
+msgid " updated."
+msgstr " actualizado."
+
+#: includes/ZeroBSCRM.AdminStyling.php:93
+msgid " field deleted."
+msgstr " campo eliminado."
+
+#. translators: %s: date and time of the revision
+#: includes/ZeroBSCRM.AdminStyling.php:96
+#, php-format
+msgid " restored to revision from %s"
+msgstr " restaurado a la revisión de %s"
+
+#: includes/ZeroBSCRM.AdminStyling.php:97
+#, php-format
+msgid " added. <a href=\"%s\">Back to "
+msgstr " añadido.  <a href=\"%s\">Volver a "
+
+#: includes/ZeroBSCRM.AdminStyling.php:98
+msgid " saved."
+msgstr " guardado."
+
+#: includes/ZeroBSCRM.AdminStyling.php:99
+#, php-format
+msgid " submitted. <a target=\"_blank\" href=\"%s\">Back to "
+msgstr " enviado. <a target=\"_blank\"  href=\"%s\">Volver a "
+
+#: includes/ZeroBSCRM.AdminStyling.php:101
+#, php-format
+msgid " draft updated. <a target=\"_blank\" href=\"%s\">Back to "
+msgstr " borrador actualizado. <a target=\"_blank\"  href=\"%s\">Volver a "
+
+#: includes/ZeroBSCRM.AdminStyling.php:112
+#, php-format
+msgid "Invoice updated. <a href=\"%s\">Back to Invoices</a>"
+msgstr "Factura actualizada. <a href=\"%s\">Volver a Facturas</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:113
+#: includes/ZeroBSCRM.AdminStyling.php:115
+msgid "Invoice updated."
+msgstr "Factura actualizada."
+
+#: includes/ZeroBSCRM.AdminStyling.php:114
+msgid "Invoice field deleted."
+msgstr "Campo de Factura eliminado."
+
+#. translators: %s: date and time of the revision
+#: includes/ZeroBSCRM.AdminStyling.php:117
+#, php-format
+msgid "Invoice restored to revision from %s"
+msgstr "Factura restaurada a %s"
+
+#: includes/ZeroBSCRM.AdminStyling.php:118
+#, php-format
+msgid "Invoice added. <a href=\"%s\">Back to Invoices</a>"
+msgstr "Factura añadida. <a href=\"%s\">Volver a Facturas</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:119
+msgid "Invoice saved."
+msgstr "Factura guardada"
+
+#: includes/ZeroBSCRM.AdminStyling.php:120
+#, php-format
+msgid ""
+"Invoice submitted. <a target=\"_blank\" href=\"%s\">Back to Invoices</a>"
+msgstr ""
+"Factura enviada. <a target=\"_blank\"  href=\"%s\">Volver a Facturas>/a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:122
+#, php-format
+msgid ""
+"Invoice draft updated. <a target=\"_blank\" href=\"%s\">Back to Invoices</a>"
+msgstr "Borrador de factura actualizado. <a href=\"%s\">Volver a Facturas</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:133
+#, php-format
+msgid "Quote updated. <a href=\"%s\">Back to Quotes</a>"
+msgstr "Presupuesto actualizado. <a href=\"%s\">Volver a Presupuestos</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:134
+#: includes/ZeroBSCRM.AdminStyling.php:136
+msgid "Quote updated."
+msgstr "Presupuesto actualizado."
+
+#: includes/ZeroBSCRM.AdminStyling.php:135
+msgid "Quote field deleted."
+msgstr "Campo de Presupuesto eliminado."
+
+#. translators: %s: date and time of the revision
+#: includes/ZeroBSCRM.AdminStyling.php:138
+#, php-format
+msgid "Quote restored to revision from %s"
+msgstr "Revisión de Presupuesto restaurada a %s"
+
+#: includes/ZeroBSCRM.AdminStyling.php:139
+#, php-format
+msgid "Quote added. <a href=\"%s\">Back to Quotes</a>"
+msgstr "Presupuesto añadido. <a href=\"%s\">Volver a Presupuestos</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:140
+msgid "Quote saved."
+msgstr "Presupuesto guardado."
+
+#: includes/ZeroBSCRM.AdminStyling.php:141
+#, php-format
+msgid "Quote submitted. <a target=\"_blank\" href=\"%s\">Back to Quotes</a>"
+msgstr ""
+"Presupuesto enviado. <a target=\"_blank\"  href=\"%s\">Volver a "
+"Presupuestos</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:143
+#, php-format
+msgid ""
+"Quote draft updated. <a target=\"_blank\" href=\"%s\">Back to Quotes</a>"
+msgstr ""
+"Borrador de presupuesto actualizado. <a target=\"_blank\"  href=\"%s"
+"\">Volver a Presupuestos</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:154
+#, php-format
+msgid "Transaction updated. <a href=\"%s\">Back to Transactions</a>"
+msgstr "Transacción actualizada. <a href=\"%s\">Volver a Transacciones</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:155
+#: includes/ZeroBSCRM.AdminStyling.php:157
+msgid "Transaction updated."
+msgstr "Transacción actualizada."
+
+#: includes/ZeroBSCRM.AdminStyling.php:156
+msgid "Transaction field deleted."
+msgstr "Campo de Transacción eliminado."
+
+#. translators: %s: date and time of the revision
+#: includes/ZeroBSCRM.AdminStyling.php:159
+#, php-format
+msgid "Transaction restored to revision from %s"
+msgstr "Transacción restaurada a %s"
+
+#: includes/ZeroBSCRM.AdminStyling.php:160
+#, php-format
+msgid "Transaction added. <a href=\"%s\">Back to Transactions</a>"
+msgstr "Transacción añadida. <a href=\"%s\">Volver a Trasación</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:161
+msgid "Transaction saved."
+msgstr "Transacción guardada."
+
+#: includes/ZeroBSCRM.AdminStyling.php:162
+#, php-format
+msgid ""
+"Transaction submitted. <a target=\"_blank\" href=\"%s\">Back to "
+"Transactions</a>"
+msgstr ""
+"Transacción enviada. <a target=\"_blank\"  href=\"%s\">Volver a "
+"Transacciones</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:164
+#, php-format
+msgid ""
+"Transaction draft updated. <a target=\"_blank\" href=\"%s\">Back to "
+"Transactions</a>"
+msgstr ""
+"Borrador de Transacción actualizado. <a target=\"_blank\"  href=\"%s"
+"\">Volver a Transacciones</a>"
+
+#: includes/ZeroBSCRM.AdminStyling.php:226
+msgid "unpaid"
+msgstr "Sin pagar"
+
+#: includes/ZeroBSCRM.CPTs.php:54
+msgid "Customer Tag"
+msgstr "Etiqueta de Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:56 includes/ZeroBSCRM.CPTs.php:165
+#: includes/ZeroBSCRM.CPTs.php:273 includes/ZeroBSCRM.CPTs.php:613
+#: includes/ZeroBSCRM.CPTs.php:757
+msgid "All Tags"
+msgstr "Todas las Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:57 includes/ZeroBSCRM.CPTs.php:166
+#: includes/ZeroBSCRM.CPTs.php:274 includes/ZeroBSCRM.CPTs.php:614
+#: includes/ZeroBSCRM.CPTs.php:758
+msgid "Parent Tag"
+msgstr "Etiqueta Padre"
+
+#: includes/ZeroBSCRM.CPTs.php:58 includes/ZeroBSCRM.CPTs.php:167
+#: includes/ZeroBSCRM.CPTs.php:275 includes/ZeroBSCRM.CPTs.php:615
+#: includes/ZeroBSCRM.CPTs.php:759
+msgid "Parent Tag:"
+msgstr "Etiqueta Padre:"
+
+#: includes/ZeroBSCRM.CPTs.php:59 includes/ZeroBSCRM.CPTs.php:168
+#: includes/ZeroBSCRM.CPTs.php:276 includes/ZeroBSCRM.CPTs.php:616
+#: includes/ZeroBSCRM.CPTs.php:760
+msgid "New Tag Name"
+msgstr "Nuevo Nombre de Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:60 includes/ZeroBSCRM.CPTs.php:169
+#: includes/ZeroBSCRM.CPTs.php:277 includes/ZeroBSCRM.CPTs.php:617
+#: includes/ZeroBSCRM.CPTs.php:761
+msgid "Add Tag Item"
+msgstr "Añadir Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:61 includes/ZeroBSCRM.CPTs.php:170
+#: includes/ZeroBSCRM.CPTs.php:278 includes/ZeroBSCRM.CPTs.php:618
+#: includes/ZeroBSCRM.CPTs.php:762
+msgid "Edit Tag"
+msgstr "Editar Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:62 includes/ZeroBSCRM.CPTs.php:171
+#: includes/ZeroBSCRM.CPTs.php:279 includes/ZeroBSCRM.CPTs.php:619
+#: includes/ZeroBSCRM.CPTs.php:763
+msgid "Tag Item"
+msgstr "Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:63 includes/ZeroBSCRM.CPTs.php:172
+#: includes/ZeroBSCRM.CPTs.php:280 includes/ZeroBSCRM.CPTs.php:620
+#: includes/ZeroBSCRM.CPTs.php:764
+msgid "View Tag"
+msgstr "Ver Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:64 includes/ZeroBSCRM.CPTs.php:173
+#: includes/ZeroBSCRM.CPTs.php:281 includes/ZeroBSCRM.CPTs.php:621
+#: includes/ZeroBSCRM.CPTs.php:765
+msgid "Separate Tags with commas"
+msgstr "Separar las Etiquetas con comas"
+
+#: includes/ZeroBSCRM.CPTs.php:65 includes/ZeroBSCRM.CPTs.php:174
+#: includes/ZeroBSCRM.CPTs.php:282 includes/ZeroBSCRM.CPTs.php:622
+#: includes/ZeroBSCRM.CPTs.php:766
+msgid "Add or remove Tags"
+msgstr "Añadir o eliminar Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:66 includes/ZeroBSCRM.CPTs.php:175
+#: includes/ZeroBSCRM.CPTs.php:283 includes/ZeroBSCRM.CPTs.php:623
+#: includes/ZeroBSCRM.CPTs.php:767
+msgid "Choose from the most used"
+msgstr "Escoger entre las más usadas"
+
+#: includes/ZeroBSCRM.CPTs.php:67 includes/ZeroBSCRM.CPTs.php:176
+#: includes/ZeroBSCRM.CPTs.php:284 includes/ZeroBSCRM.CPTs.php:624
+#: includes/ZeroBSCRM.CPTs.php:768
+msgid "Popular Tags"
+msgstr "Etiquetas Populares"
+
+#: includes/ZeroBSCRM.CPTs.php:68 includes/ZeroBSCRM.CPTs.php:177
+#: includes/ZeroBSCRM.CPTs.php:285 includes/ZeroBSCRM.CPTs.php:625
+#: includes/ZeroBSCRM.CPTs.php:769
+msgid "Search Tags"
+msgstr "Buscar Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:69 includes/ZeroBSCRM.CPTs.php:178
+#: includes/ZeroBSCRM.CPTs.php:286 includes/ZeroBSCRM.CPTs.php:626
+#: includes/ZeroBSCRM.CPTs.php:770
+msgid "Not Found"
+msgstr "No encontrada"
+
+#: includes/ZeroBSCRM.CPTs.php:70 includes/ZeroBSCRM.CPTs.php:179
+#: includes/ZeroBSCRM.CPTs.php:287 includes/ZeroBSCRM.CPTs.php:627
+#: includes/ZeroBSCRM.CPTs.php:771
+msgid "No Tags"
+msgstr "No hay Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:71 includes/ZeroBSCRM.CPTs.php:180
+#: includes/ZeroBSCRM.CPTs.php:288 includes/ZeroBSCRM.CPTs.php:628
+#: includes/ZeroBSCRM.CPTs.php:772
+msgid "Tags list"
+msgstr "Lista de Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:72 includes/ZeroBSCRM.CPTs.php:181
+#: includes/ZeroBSCRM.CPTs.php:289 includes/ZeroBSCRM.CPTs.php:629
+#: includes/ZeroBSCRM.CPTs.php:773
+msgid "Tags list navigation"
+msgstr "Navegación en Lista de Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:94 includes/ZeroBSCRM.CPTs.php:96
+#: includes/ZeroBSCRM.CPTs.php:121 includes/ZeroBSCRM.List.Customers.php:40
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:38
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:85
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:150
+msgid "Customer"
+msgstr "Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:97
+msgid "Customer Archives"
+msgstr "Archivos de Clientes"
+
+#: includes/ZeroBSCRM.CPTs.php:98 includes/ZeroBSCRM.CPTs.php:207
+#: includes/ZeroBSCRM.CPTs.php:702 includes/ZeroBSCRM.CPTs.php:799
+msgid "Company:"
+msgstr "Empresa:"
+
+#: includes/ZeroBSCRM.CPTs.php:99 includes/ZeroBSCRM.CPTs.php:208
+#: includes/ZeroBSCRM.CPTs.php:703 includes/ZeroBSCRM.CPTs.php:800
+msgid "Company"
+msgstr "Empresa"
+
+#: includes/ZeroBSCRM.CPTs.php:100
+msgid "All Customers"
+msgstr "Todos los Clientes"
+
+#: includes/ZeroBSCRM.CPTs.php:101
+msgid "Add New Customer"
+msgstr "Añadir nuevo Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:102 includes/ZeroBSCRM.CPTs.php:211
+#: includes/ZeroBSCRM.CPTs.php:319 includes/ZeroBSCRM.CPTs.php:392
+#: includes/ZeroBSCRM.CPTs.php:483 includes/ZeroBSCRM.CPTs.php:552
+#: includes/ZeroBSCRM.CPTs.php:658 includes/ZeroBSCRM.CPTs.php:706
+#: includes/ZeroBSCRM.CPTs.php:803
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/ZeroBSCRM.CPTs.php:103
+msgid "New Customer"
+msgstr "Nuevo Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:104
+msgid "Edit Customer"
+msgstr "Editar Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:105
+msgid "Update Customer"
+msgstr "Actualizar Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:106
+msgid "View Customer"
+msgstr "Ver Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:107
+msgid "Search Customer"
+msgstr "Buscar Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:108 includes/ZeroBSCRM.CPTs.php:217
+#: includes/ZeroBSCRM.CPTs.php:325 includes/ZeroBSCRM.CPTs.php:398
+#: includes/ZeroBSCRM.CPTs.php:489 includes/ZeroBSCRM.CPTs.php:558
+#: includes/ZeroBSCRM.CPTs.php:664 includes/ZeroBSCRM.CPTs.php:712
+#: includes/ZeroBSCRM.CPTs.php:809
+msgid "Not found"
+msgstr "No Encontrado"
+
+#: includes/ZeroBSCRM.CPTs.php:109 includes/ZeroBSCRM.CPTs.php:218
+#: includes/ZeroBSCRM.CPTs.php:326 includes/ZeroBSCRM.CPTs.php:399
+#: includes/ZeroBSCRM.CPTs.php:490 includes/ZeroBSCRM.CPTs.php:559
+#: includes/ZeroBSCRM.CPTs.php:665 includes/ZeroBSCRM.CPTs.php:713
+#: includes/ZeroBSCRM.CPTs.php:810
+msgid "Not found in Trash"
+msgstr "No encontrado en la papelera"
+
+#: includes/ZeroBSCRM.CPTs.php:110
+msgid "Customer Image"
+msgstr "Imagen de Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:111
+msgid "Set Customer image"
+msgstr "Determinar Imagen del Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:112
+msgid "Remove Customer image"
+msgstr "Eliminar Imagen de Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:113
+msgid "Use as Customer image"
+msgstr "Usar una Imagen de Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:114
+msgid "Insert into Customer"
+msgstr "Insertar en el Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:115
+msgid "Uploaded to this Customer"
+msgstr "Subido a este Cliente"
+
+#: includes/ZeroBSCRM.CPTs.php:116
+msgid "Customers list"
+msgstr "Lista de Clientes"
+
+#: includes/ZeroBSCRM.CPTs.php:117
+msgid "Customers list navigation"
+msgstr "Navegación por la Lista de Clientes"
+
+#: includes/ZeroBSCRM.CPTs.php:118
+msgid "Filter Customers list"
+msgstr "Filtrar Lista de Clientes"
+
+#: includes/ZeroBSCRM.CPTs.php:122
+msgid "Zero-BS Customer"
+msgstr "Cliente Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:162
+msgid "Contact Tags"
+msgstr "Etiquetas de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:163
+msgid "Contact Tag"
+msgstr "Etiqueta de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:164
+msgid " Contact Tags"
+msgstr "Etiquetas de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:202 includes/ZeroBSCRM.CPTs.php:204
+msgid "Contacts"
+msgstr "Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:203 includes/ZeroBSCRM.CPTs.php:205
+#: includes/ZeroBSCRM.CPTs.php:230
+msgid "Contact"
+msgstr "Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:206
+msgid "Contact Archives"
+msgstr "Archivos de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:209
+msgid "All Contacts"
+msgstr "Todos los Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:210
+msgid "Add New Contact"
+msgstr "Añadir nuevo Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:212
+msgid "New Contact"
+msgstr "Nuevo Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:213
+msgid "Edit Contact"
+msgstr "Editar Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:214
+msgid "Update Contact"
+msgstr "Actualizar Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:215
+msgid "View Contact"
+msgstr "Ver Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:216
+msgid "Search Contact"
+msgstr "Buscar Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:219
+msgid "Contact Image"
+msgstr "Imagen de Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:220
+msgid "Set Contact image"
+msgstr "Determinar Imagen de Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:221
+msgid "Remove Contact image"
+msgstr "Eliminar Imagen de Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:222
+msgid "Use as Contact image"
+msgstr "Usar como imagen de Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:223
+msgid "Insert into Contact"
+msgstr "Insertar en el Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:224
+msgid "Uploaded to this Contact"
+msgstr "Subir a este Contacto"
+
+#: includes/ZeroBSCRM.CPTs.php:225
+msgid "Contacts list"
+msgstr "Lista de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:226
+msgid "Contacts list navigation"
+msgstr "Navegación en Lista de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:227
+msgid "Filter Contacts list"
+msgstr "Filtrar Lista de Contactos"
+
+#: includes/ZeroBSCRM.CPTs.php:231
+msgid "Zero-BS Contact"
+msgstr "Contacto Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:270 includes/ZeroBSCRM.CPTs.php:272
+msgid " Tags"
+msgstr " Etiquetas"
+
+#: includes/ZeroBSCRM.CPTs.php:271
+msgid " Tag"
+msgstr " Etiqueta"
+
+#: includes/ZeroBSCRM.CPTs.php:314
+msgid " Archives"
+msgstr " Arcivos"
+
+#: includes/ZeroBSCRM.CPTs.php:315
+msgid ":"
+msgstr " :"
+
+#: includes/ZeroBSCRM.CPTs.php:317 includes/ZeroBSCRM.CustomerSearch.php:206
+msgid "All "
+msgstr " Todo"
+
+#: includes/ZeroBSCRM.CPTs.php:318
+msgid "Add New "
+msgstr " Añadir Nuevo"
+
+#: includes/ZeroBSCRM.CPTs.php:320
+msgid "New "
+msgstr " Nuevo"
+
+#: includes/ZeroBSCRM.CPTs.php:321
+msgid "Edit "
+msgstr " Editar"
+
+#: includes/ZeroBSCRM.CPTs.php:322
+msgid "Update "
+msgstr " Actualizar"
+
+#: includes/ZeroBSCRM.CPTs.php:323
+msgid "View "
+msgstr " Ver"
+
+#: includes/ZeroBSCRM.CPTs.php:324
+msgid "Search "
+msgstr " Buscar"
+
+#: includes/ZeroBSCRM.CPTs.php:327
+msgid " Image"
+msgstr " Imagen"
+
+#: includes/ZeroBSCRM.CPTs.php:328
+msgid "Set "
+msgstr " Especificar"
+
+#: includes/ZeroBSCRM.CPTs.php:329
+msgid "Remove "
+msgstr "Eliminar"
+
+#: includes/ZeroBSCRM.CPTs.php:330
+msgid "Use as "
+msgstr "Usar como"
+
+#: includes/ZeroBSCRM.CPTs.php:331
+msgid "Insert into "
+msgstr "Insertar en"
+
+#: includes/ZeroBSCRM.CPTs.php:332
+msgid "Uploaded to this "
+msgstr "Subido a esto"
+
+#: includes/ZeroBSCRM.CPTs.php:333
+msgid " list"
+msgstr " lista"
+
+#: includes/ZeroBSCRM.CPTs.php:334
+msgid " list navigation"
+msgstr " lista de navegación"
+
+#: includes/ZeroBSCRM.CPTs.php:335
+msgid "Filter "
+msgstr "Filtro"
+
+#: includes/ZeroBSCRM.CPTs.php:339
+msgid "Zero-BS "
+msgstr "Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:385 includes/ZeroBSCRM.CPTs.php:387
+#: includes/ZeroBSCRM.CPTs.php:411 includes/ZeroBSCRM.List.Quotes.php:34
+msgid "Quote"
+msgstr "Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:388
+msgid "Quote Archives"
+msgstr "Archivo de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:389
+msgid "Parent Quote:"
+msgstr "Presupuesto Padre"
+
+#: includes/ZeroBSCRM.CPTs.php:390
+msgid "All Quotes"
+msgstr "Todos los Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:391
+msgid "Add New Quote"
+msgstr "Añadir nuevo Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:393
+msgid "New Quote"
+msgstr "Nuevo Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:394
+msgid "Edit Quote"
+msgstr "Editar Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:395
+msgid "Update Quote"
+msgstr "Actualizar Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:396
+msgid "View Quote"
+msgstr "Ver Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:397
+msgid "Search Quote"
+msgstr "Buscar Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:400
+msgid "Quote Image"
+msgstr "Imajen de Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:401
+msgid "Set Quote image"
+msgstr "Especificar imagen del Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:402
+msgid "Remove Quote image"
+msgstr "Eliminar Imagen del Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:403
+msgid "Use as Quote image"
+msgstr "Usar como Imagen de Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:404
+msgid "Insert into Quote"
+msgstr "Insertar en Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:405
+msgid "Uploaded to this Quote"
+msgstr "Subido a este Presupuesto"
+
+#: includes/ZeroBSCRM.CPTs.php:406
+msgid "Quotes list"
+msgstr "Lista de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:407
+msgid "Quotes list navigation"
+msgstr "Navegación de Lista de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:408
+msgid "Filter Quotes list"
+msgstr "Filtrar Lista de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:412
+msgid "Zero-BS Quote"
+msgstr "Presupuesto Zero.BS"
+
+#: includes/ZeroBSCRM.CPTs.php:476 includes/ZeroBSCRM.CPTs.php:478
+#: includes/ZeroBSCRM.CPTs.php:502 includes/ZeroBSCRM.QuoteTemplate.list.php:35
+msgid "Quote Template"
+msgstr "Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:479
+msgid "Quote Template Archives"
+msgstr "Archivos de Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:480
+msgid "Parent Quote Template:"
+msgstr "Plantilla Padre de Presupuestos:"
+
+#: includes/ZeroBSCRM.CPTs.php:481
+msgid "All Quote Templates"
+msgstr "Todas las Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:482
+msgid "Add New Quote Template"
+msgstr "Añadir Nueva Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:484
+msgid "New Quote Template"
+msgstr "Nueva Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:485
+msgid "Edit Quote Template"
+msgstr "Editar Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:486
+msgid "Update Quote Template"
+msgstr "Actializar Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:487
+msgid "View Quote Template"
+msgstr "Ver Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:488
+msgid "Search Quote Template"
+msgstr "Buscar Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:491
+msgid "Quote Template Image"
+msgstr "Imagen de Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:492
+msgid "Set Quote Template image"
+msgstr "Establecer Imagen de Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:493
+msgid "Remove Quote Template image"
+msgstr "Eliminar Imagen de Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:494
+msgid "Use as Quote Template image"
+msgstr "Usar como Imagen de Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:495
+msgid "Insert into Quote Template"
+msgstr "Insertar en Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:496
+msgid "Uploaded to this Quote Template"
+msgstr "Subido a esta Plantilla de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:497
+msgid "Quote Templates list"
+msgstr "Lista de Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:498
+msgid "Quote Templates list navigation"
+msgstr "Navegación por Lista de Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:499
+msgid "Filter Quote Templates list"
+msgstr "Filtrar Lista de Plantillas de Presupuestos"
+
+#: includes/ZeroBSCRM.CPTs.php:503
+msgid "Zero-BS Quote Template"
+msgstr "Plantilla de Presupuestos de Zero BS"
+
+#: includes/ZeroBSCRM.CPTs.php:545 includes/ZeroBSCRM.CPTs.php:547
+#: includes/ZeroBSCRM.CPTs.php:573 includes/ZeroBSCRM.List.Invoices.php:35
+msgid "Invoice"
+msgstr "Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:548
+msgid "Invoice Archives"
+msgstr "Archivos de Facturas"
+
+#: includes/ZeroBSCRM.CPTs.php:549
+msgid "Parent Invoice:"
+msgstr "Factura Padre:"
+
+#: includes/ZeroBSCRM.CPTs.php:550
+msgid "All Invoices"
+msgstr "Todas las Facturas"
+
+#: includes/ZeroBSCRM.CPTs.php:551
+msgid "Add New Invoice"
+msgstr "Añadir Nueva Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:553
+msgid "New Invoice"
+msgstr "Nueva Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:554
+msgid "Edit Invoice"
+msgstr "Editar Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:555
+msgid "Update Invoice"
+msgstr "Actualizar Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:556
+msgid "View Invoice"
+msgstr "Ver Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:557
+msgid "Search Invoice"
+msgstr "Buscar Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:560
+msgid "Invoice Image"
+msgstr "Imagen de Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:561
+msgid "Set Invoice image"
+msgstr "Determinar Imagen de Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:562
+msgid "Remove Invoice image"
+msgstr "Eliminar Imagen de Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:563
+msgid "Use as Invoice image"
+msgstr "Usar como imagen de Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:564
+msgid "Insert into Invoice"
+msgstr "Insertar en la Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:565
+msgid "Uploaded to this Invoice"
+msgstr "Subido a esta Factura"
+
+#: includes/ZeroBSCRM.CPTs.php:566
+msgid "Invoices list"
+msgstr "Lista de Facturas"
+
+#: includes/ZeroBSCRM.CPTs.php:567
+msgid "Invoices list navigation"
+msgstr "Navegación en la Lista de Facturas"
+
+#: includes/ZeroBSCRM.CPTs.php:568
+msgid "Filter Invoices list"
+msgstr "Filtrar Lista de Facturas"
+
+#: includes/ZeroBSCRM.CPTs.php:574
+msgid "Zero-BS Invoice"
+msgstr "Factura de Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:610 includes/ZeroBSCRM.CPTs.php:612
+msgid "Transaction Tags"
+msgstr "Etiquetas de Transacciones"
+
+#: includes/ZeroBSCRM.CPTs.php:611
+msgid "Transaction Tag"
+msgstr "Etiqueta de la Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:653 includes/ZeroBSCRM.List.Transactions.php:35
+msgid "Transaction"
+msgstr "Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:654
+msgid "Transactions Archives"
+msgstr "Archivos de Transacciones"
+
+#: includes/ZeroBSCRM.CPTs.php:655
+msgid "Parent Transaction:"
+msgstr "Transacción Padre"
+
+#: includes/ZeroBSCRM.CPTs.php:656
+msgid "All Transactions"
+msgstr "Todas las Transacciones"
+
+#: includes/ZeroBSCRM.CPTs.php:657
+msgid "Add New Transaction"
+msgstr "Añadir Nueva Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:659
+msgid "New Transaaction"
+msgstr "Nueva Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:660
+msgid "Edit Transaction"
+msgstr "Editar Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:661
+msgid "Update Transaction"
+msgstr "Subir Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:662
+msgid "View Transaction"
+msgstr "Ver Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:663
+msgid "Search Transactions"
+msgstr "Buscar Transacción"
+
+#: includes/ZeroBSCRM.CPTs.php:669
+msgid "Zero-BS Transactions"
+msgstr "Transacción de Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:698 includes/ZeroBSCRM.CPTs.php:700
+#: includes/ZeroBSCRM.CPTs.php:725
+msgid "Form"
+msgstr "Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:701
+msgid "Form Archives"
+msgstr "Archivos de Formularios"
+
+#: includes/ZeroBSCRM.CPTs.php:704
+msgid "All Forms"
+msgstr "Todos los Formularios"
+
+#: includes/ZeroBSCRM.CPTs.php:705
+msgid "Add New Form"
+msgstr "Añadir Nuevo Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:707
+msgid "New Form"
+msgstr "Nuevo Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:708
+msgid "Edit Form"
+msgstr "Editar Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:709
+msgid "Update Form"
+msgstr "Subir Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:710
+msgid "View Form"
+msgstr "Ver Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:711
+msgid "Search Form"
+msgstr "Buscar Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:714
+msgid "Form Image"
+msgstr "Imagen de Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:715
+msgid "Set Form image"
+msgstr "Establecer Imagen de Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:716
+msgid "Remove Form image"
+msgstr "Eliminar Imagen de Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:717
+msgid "Use as Form image"
+msgstr "Usar como Imagen de Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:718
+msgid "Insert into Form"
+msgstr "Insertar en Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:719
+msgid "Uploaded to this Form"
+msgstr "Subido a este Formulario"
+
+#: includes/ZeroBSCRM.CPTs.php:720
+msgid "Forms list"
+msgstr "Lista de Formuarios"
+
+#: includes/ZeroBSCRM.CPTs.php:721
+msgid "Forms list navigation"
+msgstr "Navegación en lista de Formularios"
+
+#: includes/ZeroBSCRM.CPTs.php:722
+msgid "Filter Forms list"
+msgstr "Filtrar Listas de Formularios"
+
+#: includes/ZeroBSCRM.CPTs.php:726
+msgid "Zero-BS Form"
+msgstr "Formulario de Zero-BS"
+
+#: includes/ZeroBSCRM.CPTs.php:754 includes/ZeroBSCRM.CPTs.php:756
+msgid "Log Tags"
+msgstr "Etiquetas de Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:755
+msgid "Log Tag"
+msgstr "Etiqueta del Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:794 includes/ZeroBSCRM.CPTs.php:796
+msgid "Logs"
+msgstr "Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:795 includes/ZeroBSCRM.CPTs.php:797
+#: includes/ZeroBSCRM.CPTs.php:822
+msgid "Log"
+msgstr "Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:798
+msgid "Log Archives"
+msgstr "Archivos de Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:801
+msgid "All Logs"
+msgstr "Todos los Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:802
+msgid "Add New Log"
+msgstr "Añadir Nuevo Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:804
+msgid "New Log"
+msgstr "Nuevo Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:805
+msgid "Edit Log"
+msgstr "Editar Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:806
+msgid "Update Log"
+msgstr "Subir Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:807
+msgid "View Log"
+msgstr "Ver Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:808
+msgid "Search Log"
+msgstr "Buscar Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:811
+msgid "Log Image"
+msgstr "Imagen de Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:812
+msgid "Set Log image"
+msgstr "Establecer Imagen de Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:813
+msgid "Remove Log image"
+msgstr "Eliminr Imagen de Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:814
+msgid "Use as Log image"
+msgstr "Usar como Imagen de Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:815
+msgid "Insert into Log"
+msgstr "Insertar en el Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:816
+msgid "Uploaded to this Log"
+msgstr "Subido a este Registro"
+
+#: includes/ZeroBSCRM.CPTs.php:817
+msgid "Logs list"
+msgstr "Lista de Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:818
+msgid "Logs list navigation"
+msgstr "Navegación en Lista de Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:819
+msgid "Filter Logs list"
+msgstr "Filtrar Lista de Registros"
+
+#: includes/ZeroBSCRM.CPTs.php:823
+msgid "Zero-BS Log"
+msgstr "Registro de Zero-BS"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:376
+#: includes/ZeroBSCRM.CustomerSearch.php:126
+#: includes/ZeroBSCRM.List.Companies.php:382
+#: includes/ZeroBSCRM.List.Customers.php:427
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:424
+#: includes/ZeroBSCRM.List.Invoices.php:247
+#: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:129
+msgid "Status"
+msgstr "Estado"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:394
+msgid "Name Contains"
+msgstr "El Nombre Contiene"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:397
+msgid "e.g. Mike"
+msgstr "P.Ej. Miguel"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:401
+msgid "Total Value (Range)"
+msgstr "Valor Total (Rango)"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:422
+msgid "Date Added (Range)"
+msgstr "Fecha de Entrada (Rango)"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:443
+msgid "Has Tag(s)"
+msgstr "Con Etiqueta(s)"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:492
+msgid "Has Quote"
+msgstr "Con Presupuesto"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:499
+msgid "Has Invoice"
+msgstr "Con Factura"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:506
+msgid "Has Transaction"
+msgstr "Con Transacción"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:523
+msgid "Source"
+msgstr "Fuente"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:542
+msgid "Within Postal Code"
+msgstr "En el Distrito Postal"
+
+#: includes/ZeroBSCRM.CustomerFilters.php:545
+msgid "e.g. AL1 or 90012"
+msgstr "p.ej. 28028 o Z1wS10"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:114
+msgid "s"
+msgstr "s"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:116
+msgid " Export"
+msgstr "Esportar"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:119
+msgid "Tick some "
+msgstr "Marca algunos"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:125
+msgid "Date Added"
+msgstr "Fecha de Entrada"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:172
+msgid "Total: "
+msgstr "Total:"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:195
+msgid "Import "
+msgstr "Importar"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:209
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/ZeroBSCRM.CustomerSearch.php:223
+msgid "+ Create a Tag"
+msgstr "* Crear Etiqueta"
+
+#: includes/ZeroBSCRM.Export.php:41
+msgid "Companies"
+msgstr "Compañías"
+
+#: includes/ZeroBSCRM.Export.php:43
+msgid "Export Companies"
+msgstr "Exportar Compañías"
+
+#: includes/ZeroBSCRM.Export.php:56
+msgid "Export Invoices"
+msgstr "Exportar Facturas"
+
+#: includes/ZeroBSCRM.Export.php:62
+msgid "Export Quotes"
+msgstr "Exportar Presupuestos"
+
+#: includes/ZeroBSCRM.Export.php:68
+msgid "Export Transactions"
+msgstr "Exportar Transacciones"
+
+#: includes/ZeroBSCRM.Forms.php:66
+msgid "Conversion Rate"
+msgstr "Ratio de Conversión"
+
+#: includes/ZeroBSCRM.Forms.php:67
+msgid "Conversions"
+msgstr "Conversiones"
+
+#: includes/ZeroBSCRM.Forms.php:68
+msgid "Views"
+msgstr "Vistas"
+
+#: includes/ZeroBSCRM.Forms.php:125
+msgid "Embed a lead capture form to your website"
+msgstr "Incrustar una captura de Prospecto en su pagina web"
+
+#: includes/ZeroBSCRM.Forms.php:178
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: includes/ZeroBSCRM.Forms.php:184
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/ZeroBSCRM.Forms.php:194
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/ZeroBSCRM.Forms.php:216
+msgid "Form ID:"
+msgstr "Id del Formulario:"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:229
+#: includes/ZeroBSCRM.InvoiceBuilder.php:755
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:580
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:230
+#: includes/ZeroBSCRM.InvoiceBuilder.php:756
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:581
+msgid "Price"
+msgstr "Precio"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:232
+#: includes/ZeroBSCRM.InvoiceBuilder.php:758
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:583
+msgid "Hours"
+msgstr "Horas"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:233
+#: includes/ZeroBSCRM.InvoiceBuilder.php:759
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:584
+msgid "Rate"
+msgstr "Ratio"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:276
+#: includes/ZeroBSCRM.InvoiceBuilder.php:809
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:677
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:292
+#: includes/ZeroBSCRM.InvoiceBuilder.php:820
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:700
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:305
+#: includes/ZeroBSCRM.InvoiceBuilder.php:828
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:719
+msgid "Postage and packaging"
+msgstr "Gastos de Envío"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:320
+#: includes/ZeroBSCRM.InvoiceBuilder.php:841
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:752
+msgid "Tax"
+msgstr "Impuestos"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:331
+#: includes/ZeroBSCRM.InvoiceBuilder.php:847
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:759
+msgid "Total"
+msgstr "Total"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:364
+#: includes/ZeroBSCRM.InvoiceBuilder.php:877
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:796
+msgid "Payment (transaction ID:"
+msgstr "Pago (Transacción ID:"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:381
+#: includes/ZeroBSCRM.InvoiceBuilder.php:895
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:814
+msgid "Amount due"
+msgstr "Cantidad Debida"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:633
+msgid "Invoice Number:"
+msgstr "Número de Factura:"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:656
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:375
+msgid "Invoice Date"
+msgstr "Fecha de Factura"
+
+#: includes/ZeroBSCRM.InvoiceBuilder.php:761
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/ZeroBSCRM.List.Companies.php:122
+msgid "No "
+msgstr "No"
+
+#: includes/ZeroBSCRM.List.Companies.php:381
+#: includes/ZeroBSCRM.List.Customers.php:426
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:423
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/ZeroBSCRM.List.Companies.php:383
+msgid " Count"
+msgstr "Cuenta"
+
+#: includes/ZeroBSCRM.List.Companies.php:384
+#: includes/ZeroBSCRM.List.Customers.php:432
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:429
+msgid "Added"
+msgstr "Añadido"
+
+#: includes/ZeroBSCRM.List.Customers.php:125
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:122
+msgid "No Customers avaliable."
+msgstr "No hay Cliente disponible."
+
+#: includes/ZeroBSCRM.List.Customers.php:431
+#: includes/ZeroBSCRM.List.CustomesWithoutQJ.php:428
+msgid "Total Value"
+msgstr "Valor Total"
+
+#: includes/ZeroBSCRM.List.Invoices.php:87
+msgid "No Invoices avaliable."
+msgstr "No hay Factura disponible."
+
+#: includes/ZeroBSCRM.List.Invoices.php:246
+msgid "Invoice No#"
+msgstr "Factura No#"
+
+#: includes/ZeroBSCRM.List.Invoices.php:248
+#: includes/ZeroBSCRM.List.Quotes.php:310
+msgid "Customer Name"
+msgstr "Nombre de Cliente"
+
+#: includes/ZeroBSCRM.List.Invoices.php:249
+#: includes/ZeroBSCRM.List.Quotes.php:311
+#: includes/ZeroBSCRM.List.Transactions.php:216
+msgid "Value"
+msgstr "Valor"
+
+#: includes/ZeroBSCRM.List.Invoices.php:250
+#: includes/ZeroBSCRM.List.Quotes.php:312
+#: includes/ZeroBSCRM.List.Transactions.php:217
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/ZeroBSCRM.List.Quotes.php:86
+msgid "No Quotes avaliable."
+msgstr "No hay Presupuesto disponible"
+
+#: includes/ZeroBSCRM.List.Quotes.php:272
+#: includes/ZeroBSCRM.List.Quotes.php:315
+#: includes/ZeroBSCRM.MetaBoxes.Quotes.php:1157
+msgid "Accepted"
+msgstr "Aceptado"
+
+#: includes/ZeroBSCRM.List.Quotes.php:281
+msgid "Published, not yet accepted"
+msgstr "Publicado, aún no aceptado"
+
+#: includes/ZeroBSCRM.List.Quotes.php:286
+msgid "Not yet published"
+msgstr "Aún sin publicar"
+
+#: includes/ZeroBSCRM.List.Quotes.php:309
+msgid "QuoteRef"
+msgstr "RefPresupuesto"
+
+#: includes/ZeroBSCRM.List.Transactions.php:87
+msgid "No Transactions avaliable."
+msgstr "No hay Transacción disponible"
+
+#: includes/ZeroBSCRM.List.Transactions.php:215
+msgid "Transaction No#"
+msgstr "Transacción No#"
+
+#: includes/ZeroBSCRM.MetaBoxes.Companies.php:732
+msgid "Select a Company"
+msgstr "Selecciones una Compañía"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:241
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:242
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:243
+msgid "Send Test"
+msgstr "Enviar Prueba"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:309
+#: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:187
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:340
+msgid "+ Add your logo"
+msgstr "+ Añada su Logotipo"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:347
+#: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:148
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:348
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:435
+msgid "Your business information"
+msgstr "Información de su negocio"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:458
+msgid "Edit or add details"
+msgstr "Editar o añadir detalles"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:471
+msgid "Send invoice to: "
+msgstr "Enviar Factura a:"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:487
+msgid "Copy to: "
+msgstr "Copiar a:"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:497
+msgid "Assign to (Customer): "
+msgstr "Asignar a (Cliente):"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:522
+msgid "Assign to (Company): "
+msgstr "Asignar a (Compañía):"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:740
+msgid "Tax on postage (%)"
+msgstr "Impuestos de envío (%)"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1135
+msgid "Attach Files"
+msgstr "Adjuntar Archivos"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1142
+msgid "Add memo to self"
+msgstr "Añadir Auto Memo"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1146
+msgid "Memo"
+msgstr "Memo"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1147
+msgid "Add memo to self (your recipient won't see this)"
+msgstr "Añadir auto memo (Los destinatarios no verán esto)"
+
+#: includes/ZeroBSCRM.MetaBoxes.Invoices.php:1148
+msgid "Hide"
+msgstr "Esconder"
+
+#: includes/ZeroBSCRM.MetaBoxes.Quotes.php:1158
+msgid "By: "
+msgstr "Por:"
+
+#: includes/ZeroBSCRM.MetaBoxes.Quotes.php:1170
+msgid "Not Yet Accepted"
+msgstr "Aún sin aceptar"
+
+#: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:157
+msgid "Delete Permanently"
+msgstr "Eliminar permanentemente"
+
+#: includes/ZeroBSCRM.MetaBoxes.SubmitBoxes.php:159
+msgid "Move to Trash"
+msgstr "Mover a la papelera"
+
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:70
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:135
+msgid "Transaction Value "
+msgstr "Valor de Transacción"
+
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:75
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:140
+msgid "Transaction Name:"
+msgstr "Nombre de Transacción:"
+
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:102
+#: includes/ZeroBSCRM.MetaBoxes.Transactions.php:182
+msgid "Assign to invoice:"
+msgstr "Asignar a Factura:"
+
+#: includes/ZeroBSCRM.Migrations.php:119
+msgid "ZeroBS CRM has completed a necessary migration to 1.1.19, Great!"
+msgstr "Zero-BS ha completado una miración necesaria a 1.1.19, ¡Bien!"
+
+#: includes/ZeroBSCRM.Migrations.php:229
+msgid "ZeroBS CRM has completed a necessary migration to 1.2.3, Great!"
+msgstr "ZeroBS CRM ha completado una migración necesaria a 1.2.3 ¡Bien!"
+
+#: includes/ZeroBSCRM.Migrations.php:268
+msgid "ZeroBS CRM has completed a necessary migration to 1.2.7, Great!"
+msgstr "ZeroBS CRM ha completado una migración necesaria a 1.2.7 ¡Bien!"
+
+#: includes/ZeroBSCRM.Permissions.php:36
+msgid "ZeroBSCRM Admin (Full ZBS Permissions)"
+msgstr "ZeroBS CRM Administración (Permisos totales de ZBS)"
+
+#: includes/ZeroBSCRM.Permissions.php:103
+msgid "ZeroBSCRM Customer Manager"
+msgstr "ZeroBS CRM Administrador de Clientes"
+
+#: includes/ZeroBSCRM.Permissions.php:142
+msgid "ZeroBSCRM Quote Manager"
+msgstr "ZeroBS CRM Administrador de Presupuestos"
+
+#: includes/ZeroBSCRM.Permissions.php:180
+msgid "ZeroBSCRM Invoice Manager"
+msgstr "ZeroBS CRM Administrador de Facturas"
+
+#: includes/ZeroBSCRM.Permissions.php:218
+msgid "ZeroBSCRM Transaction Manager"
+msgstr "ZeroBS CRM Administrador de Transacciones"
+
+#: includes/ZeroBSCRM.QuoteTemplate.list.php:87
+msgid "No Quote Templates avaliable."
+msgstr "No hay Plantilla de Presupuesto disponible"
+
+#: includes/ZeroBSCRM.QuoteTemplate.list.php:209
+msgid "Template"
+msgstr "Plantilla"
+
+#: includes/ZeroBSCRM.QuoteTemplate.list.php:210
+msgid "Created"
+msgstr "Creado"
+
+#: includes/ZeroBSCRM.Templating.php:197
+msgid "View Proposal"
+msgstr "Ver Propuesta"
+
+#: includes/ZeroBSCRM.Templating.php:205
+msgid "Edit Proposal"
+msgstr "Editar Propuesta"
+
+#: includes/wh.langsupport.lib.php:293
+msgid "General Language"
+msgstr "Lenguaje General"
+
+#: wild/proposals/single-proposal.php:27
+msgid "Accept Proposal?"
+msgstr "¿Aceptar Propuesta?"
+
+#: wild/proposals/single-proposal.php:28
+msgid "Please enter your email to confirm you accept this proposal:"
+msgstr ""
+"Por favor introduzca su correo para confirmar que acepta esta Propuesta"
+
+#: wild/proposals/single-proposal.php:30
+msgid "Your email is required in order to accept a proposal"
+msgstr "Se requiere su correo para aceptar la Propuesta"
+
+#: wild/proposals/single-proposal.php:32
+msgid "Accept"
+msgstr "Aceptar"
+
+#: wild/proposals/single-proposal.php:34
+msgid "Thank you for accepting this proposal, we'll be in touch shortly."
+msgstr ""
+"Gracias por aceptar esta Propuesta, en breve estaremos en contacto con usted"
+
+#: wild/proposals/single-proposal.php:35
+msgid ""
+"There was an error accepting this proposal, please email us to let us know."
+msgstr ""
+"Ocurrió un error al aceptar esta propuesta, por favor envíe un correo para "
+"dejarnos saber"
+
+#: wild/proposals/single-proposal.php:40
+msgid "Proposals Powered by"
+msgstr "Con tecnología de"
+
+#: wild/welcome-to-zbs/index.php:60
+msgid "Essential Details"
+msgstr "Detalles esenciales"
+
+#: wild/welcome-to-zbs/index.php:61
+msgid "What is your business type?"
+msgstr "¿Cuál es el tipo de su negocio?"
+
+#: wild/welcome-to-zbs/index.php:70
+msgid ""
+"Please let us know more details about how you intend to your Zero BS CRM so "
+"we can refine the product"
+msgstr ""
+"Por favor, dejenos saber más detalles sobre cómo quiere usar su Zero BS CRM, "
+"para que podamos refinar el producto"
+
+#: wild/welcome-to-zbs/index.php:76
+msgid "Name your CRM:"
+msgstr "Nombre su CRM:"
+
+#: wild/welcome-to-zbs/index.php:86
+msgid "Should ZBS Override WordPress?"
+msgstr "Debería ZBS Reemplazar WordPress"
+
+#: wild/welcome-to-zbs/index.php:107
+msgid "Yes please. Share my essentials"
+msgstr "Si por favor. Ccomparta mis datos esenciales"
+
+#: wild/welcome-to-zbs/index.php:128
+msgid "Keep up to date with everything ZBS CRM"
+msgstr "Mantenga todo actualizado con ZBS CRM"
+
+#: wild/welcome-to-zbs/index.php:129
+msgid ""
+"We are constantly working on making ZBS CRM the best it can be. Keep up to "
+"date with developments and learn how to get the most out of your CRM. We "
+"will not send you SPAM. What we will send you is:"
+msgstr ""
+"Estamos constantemente trabajando para hacer de ZBS CRM lo mejor que pueda. "
+"Manténgase al día con los desarrollos y aprenda a sacar lo mejor de su CRM. "
+"No le enviaremos SPAM. Lo que le enviarémos será:"
+
+#: wild/welcome-to-zbs/index.php:144
+msgid "Yes please. Keep me up to date"
+msgstr "Si por favor. Manténganme al día."

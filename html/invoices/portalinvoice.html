@@ -1,0 +1,62 @@
+<div class='container-fluid zbs-invoice-portal-inner' style="max-width:1200px;margin-left:auto;margin-right:auto;">
+
+        <div class='status-total zbs-invoice-box'>
+            ###TOPSTATUS###
+        </div>
+        <div class="zbs-invoice-box zbs-logo-portal">
+            <div id="zbs_invoice_logos" style="width:50%;float:left">
+                <div class="wh-logo-set ###LOGOCLASS###">
+                    <img id="wh-logo-set-img" src="###LOGOURL###" style="max-width:50%;"/>
+                </div>
+            </div>
+            <div class='zbs-invoice-topper zbs-portal-inv-deets' style="width:50%;float:right">
+                <div class='inv-num'>Invoice ####INVNOSTR###</div>
+                <div class='date'>###INVDATESTR###</div>
+                <div class='date'>Payment Terms: Due ###DUEDATE###</div>
+            </div>
+        </div>
+        <div class='clear' style="clear:both"></div>
+        <div class='zbs-invoice-box'>
+            <div id='zbs-business-info-wrapper'>
+                <div class="business-info ###BIZCLASS###">
+                    ###BIZINFOTABLE###
+      	        </div>
+            </div>
+            <div id='zbs-customer-info-wrapper'>
+                    ###CUSTINFOTABLE###
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="zbs-invoice-items" class='zbs-invoice-box'>
+            <table class='table table-striped' style="width:100%">
+                <thead style="border:1px solid #ccc;background:#f5f5f5;padding: 20px;line-height: 30px;font-weight: 100;">
+                    <th style="font-weight:100">Description</th>
+                    ###TABLEHEADERS###
+                    <th class="ri" style="font-weight:100">Amount</th>
+                </thead>
+                <div class='zbs-table-block'>
+                    ###LINEITEMS###
+                </div>
+            </table>
+
+            ###TOTALSTABLE###
+
+        </div>
+
+        <div class='zbs-invoice-box'>
+            <div class='zbs-invoice-pull-left'>
+                ###PAYDETAILS###
+            </div>
+            <div class='zbs-invoice-pull-right'>
+                <div class='pay-options'>
+                    ###PAYPALBUTTON###
+                </div>
+                <div class='pay-thanks'>
+                    ###PAYTHANKS###
+                </div>
+            </div>
+            <div class='clear'></div>
+        </div>
+       
+</div> <!-- end container -->

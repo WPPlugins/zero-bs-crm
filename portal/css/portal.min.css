@@ -1,0 +1,188 @@
+/*!
+ * Zero BS CRM
+ * http://www.epicplugins.com
+ * V1.2.7
+ *
+ * Copyright 2017, Epic Plugins, StormGate Ltd.
+ *
+ * Date: 08/03/2017
+ */
+.zbs-client-portal-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 50px;
+  position: relative; }
+  .zbs-client-portal-wrap #zbs-nav-tabs {
+    list-style-type: none;
+    width: 20%;
+    float: left;
+    margin-right: 2%; }
+    .zbs-client-portal-wrap #zbs-nav-tabs .na a {
+      color: #c5c5c5; }
+    .zbs-client-portal-wrap #zbs-nav-tabs li {
+      list-style: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      position: relative;
+      padding: 5px; }
+      .zbs-client-portal-wrap #zbs-nav-tabs li a:hover {
+        text-decoration: none; }
+      .zbs-client-portal-wrap #zbs-nav-tabs li a {
+        padding: .875em 0;
+        display: block; }
+
+.zbs_alert {
+  padding: 10px;
+  background: #8BC34A;
+  color: white;
+  display: block;
+  text-align: center; }
+
+.zbs-portal-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+  width: 70%; }
+  .zbs-portal-wrapper h1 {
+    margin-top: 0px; }
+
+.zbs-portal-wrapper-sin {
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+  width: 100%; }
+  .zbs-portal-wrapper-sin h1 {
+    margin-top: 0px; }
+
+.zbs-alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.zbs-portal-login .login-form {
+  width: 500px;
+  max-width: 80%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px; }
+  .zbs-portal-login .login-form input[type='text'], .zbs-portal-login .login-form input[type='password'] {
+    width: 100%; }
+
+.zbs-portal-invoices-list .tools .fa {
+  color: #a3210b; }
+.zbs-portal-invoices-list .status {
+  padding: 5px;
+  border-radius: 2px; }
+.zbs-portal-invoices-list .paid {
+  background: green;
+  color: white;
+  font-weight: 700; }
+.zbs-portal-invoices-list .unpaid {
+  background: #d0d012;
+  color: white;
+  font-weight: 700; }
+.zbs-portal-invoices-list .draft {
+  background: #999;
+  color: white;
+  font-weight: 700; }
+.zbs-portal-invoices-list .overdue {
+  background: red;
+  color: white;
+  font-weight: 700; }
+
+.zbs-single-invoice-portal .zbs-invoice-pull-left {
+  float: left;
+  width: 50%; }
+.zbs-single-invoice-portal .zbs-invoice-pull-right {
+  float: right;
+  width: 50%;
+  text-align: right; }
+.zbs-single-invoice-portal .clear {
+  clear: both; }
+.zbs-single-invoice-portal .zbs-invoice-portal-inner {
+  padding: 20px;
+  background: #efefef;
+  border: 1px solid #ddd; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-logo-portal {
+    height: 160px; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner .status-total {
+    position: relative; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #invoice_totals tr:nth-of-type(even) {
+    background: #f1f4f7; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #invoice_totals tr:nth-of-type(odd) {
+    background: #ebeff3; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #invoice_totals tr td {
+    border: none; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #invoice_totals .zbs_grand_total .bord {
+    background: #ebeff3 !important; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #zbs-business-info-wrapper {
+    width: 50%;
+    float: left; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner #zbs-customer-info-wrapper {
+    width: 50%;
+    float: right;
+    text-align: right; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box {
+    padding: 50px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background: white; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .zbs-portal-value {
+      font-size: 40px;
+      color: black;
+      font-weight: 900; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box table, .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box td, .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box th {
+      table-layout: auto;
+      border: none; }
+      .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box table .dz, .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box td .dz, .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box th .dz {
+        font-size: 13px;
+        font-style: italic; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .ri {
+      text-align: right;
+      font-weight: 600; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .cen {
+      text-align: center; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .zbs-invoice-paid {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      padding: 30px;
+      margin-right: 50px;
+      color: #038d24;
+      background: #92e9a7;
+      text-transform: uppercase;
+      font-weight: 900;
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .zbs-invoice-paid .fa {
+        margin-right: 10px; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .zbs-portal-label {
+      background: #546273;
+      color: white;
+      display: inline;
+      padding: 5px;
+      border-radius: 4px; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .pay-to-name {
+      font-size: 30px;
+      font-weight: 800;
+      color: black; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .inv-num {
+      font-size: 18px;
+      font-weight: 800;
+      color: black; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-invoice-box .zbs-portal-biz {
+      margin-top: 20px; }
+  .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-portal-inv-deets {
+    text-align: right; }
+    .zbs-single-invoice-portal .zbs-invoice-portal-inner .zbs-portal-inv-deets .date {
+      font-style: italic !important; }

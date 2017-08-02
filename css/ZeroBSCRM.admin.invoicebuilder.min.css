@@ -1,0 +1,439 @@
+/*!
+ * Zero BS CRM
+ * http://www.zerobscrm.com
+ * V1.0
+ *
+ * Copyright 2016, ZeroBSCRM.com, StormGate Ltd., Epic Plugins Ltd.
+ *
+ * Date: 02/06/16
+ */
+.post-type-zerobs_invoice .clear {
+  clear: both; }
+.post-type-zerobs_invoice .mark-as-paid {
+  margin-left: 10px;
+  background-color: green;
+  text-transform: uppercase;
+  color: white;
+  padding: 7px;
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer; }
+.post-type-zerobs_invoice .hide {
+  display: none; }
+.post-type-zerobs_invoice #zbs_invoice_preview {
+  text-decoration: none; }
+.post-type-zerobs_invoice #zbs_top_wrapper {
+  position: relative; }
+  .post-type-zerobs_invoice #zbs_top_wrapper .zbs-invoice-topper {
+    width: 50%;
+    float: right; }
+    .post-type-zerobs_invoice #zbs_top_wrapper .zbs-invoice-topper input, .post-type-zerobs_invoice #zbs_top_wrapper .zbs-invoice-topper select {
+      width: 80%;
+      float: left; }
+    .post-type-zerobs_invoice #zbs_top_wrapper .zbs-invoice-topper th {
+      vertical-align: middle;
+      text-align: right; }
+.post-type-zerobs_invoice #zbs_invoice_send_test2:focus {
+  outline: 0 !important; }
+.post-type-zerobs_invoice #billing-to {
+  width: 50%;
+  float: left; }
+  .post-type-zerobs_invoice #billing-to th {
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 100; }
+.post-type-zerobs_invoice #assign-to {
+  width: 50%;
+  float: right; }
+  .post-type-zerobs_invoice #assign-to .zbs-controls {
+    float: left; }
+  .post-type-zerobs_invoice #assign-to select {
+    width: 90%; }
+  .post-type-zerobs_invoice #assign-to th {
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 100; }
+.post-type-zerobs_invoice #zbs_invoice_alerts {
+  position: absolute;
+  margin-top: -64px;
+  width: 100%;
+  margin-left: -13px; }
+  .post-type-zerobs_invoice #zbs_invoice_alerts #zbs_success {
+    display: none;
+    background: green;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px; }
+    .post-type-zerobs_invoice #zbs_invoice_alerts #zbs_success .fa {
+      color: #00a700;
+      font-size: 20px;
+      margin-right: 10px; }
+.post-type-zerobs_invoice #zbs_invoice_test_alerts {
+  position: relative;
+  width: 99%;
+  margin-bottom: 20px;
+  margin-top: 15px; }
+  .post-type-zerobs_invoice #zbs_invoice_test_alerts #zbs_success, .post-type-zerobs_invoice #zbs_invoice_test_alerts #zbs_test_success {
+    display: none;
+    background: green;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px; }
+    .post-type-zerobs_invoice #zbs_invoice_test_alerts #zbs_success .fa, .post-type-zerobs_invoice #zbs_invoice_test_alerts #zbs_test_success .fa {
+      color: #00a700;
+      font-size: 20px;
+      margin-right: 10px; }
+.post-type-zerobs_invoice #zbs-business-info-wrapper {
+  width: 30%;
+  margin-top: -35px; }
+  .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info-toggle {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100; }
+    .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info-toggle .fa {
+      color: #428bca;
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: 100; }
+  .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info {
+    display: none; }
+    .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info .zbs-table {
+      margin-top: 9px;
+      font-size: 14px;
+      font-weight: 100;
+      margin-left: 33px; }
+      .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info .zbs-table .top-pad td {
+        padding-top: 20px; }
+      .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info .zbs-table td {
+        border: 0px;
+        padding: 0px; }
+    .post-type-zerobs_invoice #zbs-business-info-wrapper .business-info .edit-or-add {
+      font-weight: 100;
+      margin-left: 33px; }
+.post-type-zerobs_invoice #zbs-invoice-customiser {
+  padding: 15px 10px 15px 10px;
+  background: #f5f5f5;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: -6px;
+  border-bottom: 1px solid #eee; }
+  .post-type-zerobs_invoice #zbs-invoice-customiser .header {
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 10px;
+    font-weight: 100; }
+.post-type-zerobs_invoice .top-row .row-amount {
+  padding-top: 12px; }
+.post-type-zerobs_invoice #partials {
+  margin-top: 20px; }
+.post-type-zerobs_invoice #invoice_totals, .post-type-zerobs_invoice #partials {
+  width: 100%;
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc; }
+  .post-type-zerobs_invoice #invoice_totals .zbs_grand_total .bord-l, .post-type-zerobs_invoice #partials .zbs_grand_total .bord-l {
+    border-left: 2px solid #ccc; }
+  .post-type-zerobs_invoice #invoice_totals .zbs_grand_total .bord, .post-type-zerobs_invoice #partials .zbs_grand_total .bord {
+    background: #f5f5f5;
+    color: black;
+    font-weight: 800;
+    border-bottom: 2px solid #ccc; }
+  .post-type-zerobs_invoice #invoice_totals .tax_total, .post-type-zerobs_invoice #partials .tax_total {
+    display: none; }
+  .post-type-zerobs_invoice #invoice_totals ._1, .post-type-zerobs_invoice #partials ._1 {
+    display: block; }
+  .post-type-zerobs_invoice #invoice_totals tr, .post-type-zerobs_invoice #partials tr {
+    height: 35px; }
+  .post-type-zerobs_invoice #invoice_totals .hide, .post-type-zerobs_invoice #partials .hide {
+    display: none; }
+  .post-type-zerobs_invoice #invoice_totals .bord input, .post-type-zerobs_invoice #partials .bord input {
+    text-align: right;
+    float: right;
+    box-shadow: none; }
+  .post-type-zerobs_invoice #invoice_totals .bord-l, .post-type-zerobs_invoice #partials .bord-l {
+    text-align: right; }
+  .post-type-zerobs_invoice #invoice_totals td.bord, .post-type-zerobs_invoice #partials td.bord {
+    padding: 5px;
+    border: 1px solid #ccc; }
+  .post-type-zerobs_invoice #invoice_totals .row-amount, .post-type-zerobs_invoice #partials .row-amount {
+    background: #f5f5f5;
+    color: black;
+    font-weight: 400;
+    height: 20px;
+    text-align: right;
+    border-right: 2px solid #ccc !important; }
+  .post-type-zerobs_invoice #invoice_totals .bord-l, .post-type-zerobs_invoice #partials .bord-l {
+    border-left: 2px solid #ccc !important; }
+.post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block {
+  position: relative; }
+  .post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block tr {
+    width: 90%; }
+  .post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block textarea {
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    box-shadow: none;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    margin-top: 10px; }
+  .post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block row-amount {
+    padding-top: 12px; }
+  .post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block .tapad {
+    padding: 0px 0px 0px 10px; }
+  .post-type-zerobs_invoice #zbs-invoice-items .zbs-item-block input[type=number] {
+    height: 28px;
+    line-height: 1;
+    box-shadow: none;
+    text-align: center; }
+.post-type-zerobs_invoice #zbs-invoice-items .row-amount {
+  background: #f5f5f5;
+  color: black;
+  font-weight: 800;
+  text-align: right; }
+.post-type-zerobs_invoice #zbs-invoice-items .zbs-row-actions {
+  cursor: pointer; }
+.post-type-zerobs_invoice #zbs-invoice-items .padding {
+  height: 15px; }
+.post-type-zerobs_invoice #zbs-invoice-items #tblock1 .remove-row {
+  display: none; }
+.post-type-zerobs_invoice #zbs-invoice-items .zbs-item-name {
+  width: 100%;
+  height: 28px;
+  border: 0px;
+  box-shadow: none; }
+.post-type-zerobs_invoice #zbs-invoice-items .top-row, .post-type-zerobs_invoice #zbs-invoice-items .bottom-row {
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc; }
+.post-type-zerobs_invoice #zbs-invoice-items .bottom-row, .post-type-zerobs_invoice #zbs-invoice-items .row-amount {
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc; }
+.post-type-zerobs_invoice #zbs-invoice-items .selected .top-row, .post-type-zerobs_invoice #zbs-invoice-items .selected .bottom-row {
+  border-left: 4px solid #428bca; }
+.post-type-zerobs_invoice #zbs-invoice-items .top-row td {
+  border-bottom: 1px dashed #ddd !important; }
+.post-type-zerobs_invoice #zbs-invoice-items .table > tbody > tr > td, .post-type-zerobs_invoice #zbs-invoice-items .table > tbody > tr > th, .post-type-zerobs_invoice #zbs-invoice-items .table > tfoot > tr > td, .post-type-zerobs_invoice #zbs-invoice-items .table > tfoot > tr > th, .post-type-zerobs_invoice #zbs-invoice-items .table > thead > tr > td, .post-type-zerobs_invoice #zbs-invoice-items .table > thead > tr > th {
+  border-top: 0px solid white !important; }
+.post-type-zerobs_invoice #zbs-invoice-items .add-row {
+  border-left: 0px solid white; }
+.post-type-zerobs_invoice #zbs-invoice-items .zbs-row-actions {
+  border: 1px solid #ccc;
+  color: #999;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: center; }
+.post-type-zerobs_invoice #zbs_invoice_actions {
+  padding: 15px 10px 15px 10px;
+  background: #f5f5f5;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: -6px;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  height: 35px; }
+  .post-type-zerobs_invoice #zbs_invoice_actions .zbs-invoice-status {
+    margin-top: -2px;
+    float: left;
+    padding: 10px; }
+    .post-type-zerobs_invoice #zbs_invoice_actions .zbs-invoice-status .draft {
+      background-color: #ddd;
+      text-transform: uppercase;
+      color: white;
+      padding: 7px;
+      font-weight: 900;
+      font-size: 25px; }
+    .post-type-zerobs_invoice #zbs_invoice_actions .zbs-invoice-status .unpaid {
+      background-color: #ffd800;
+      text-transform: uppercase;
+      color: white;
+      padding: 7px;
+      font-weight: 900;
+      font-size: 25px; }
+    .post-type-zerobs_invoice #zbs_invoice_actions .zbs-invoice-status .paid {
+      background-color: green;
+      text-transform: uppercase;
+      color: white;
+      padding: 7px;
+      font-weight: 900;
+      font-size: 25px; }
+    .post-type-zerobs_invoice #zbs_invoice_actions .zbs-invoice-status .overdue {
+      background-color: red;
+      text-transform: uppercase;
+      color: white;
+      padding: 7px;
+      font-weight: 900;
+      font-size: 25px; }
+  .post-type-zerobs_invoice #zbs_invoice_actions button {
+    margin-right: 2px; }
+  .post-type-zerobs_invoice #zbs_invoice_actions .btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+    border: 1px solid #428bca;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 300;
+    border-radius: 4px; }
+  .post-type-zerobs_invoice #zbs_invoice_actions .btn-secondary {
+    background: #ddd;
+    border-color: #ddd;
+    border: 1px solid #ddd;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 300;
+    border-radius: 4px; }
+.post-type-zerobs_invoice #zbs_invoice_logos {
+  float: left;
+  width: 30%; }
+  .post-type-zerobs_invoice #zbs_invoice_logos .hide {
+    display: none !important; }
+  .post-type-zerobs_invoice #zbs_invoice_logos .show {
+    display: block !important; }
+.post-type-zerobs_invoice #publish {
+  display: none; }
+.post-type-zerobs_invoice #submitdiv span {
+  display: none; }
+.post-type-zerobs_invoice #submitdiv .handlediv {
+  display: none;
+  border-bottom: 0px solid white; }
+.post-type-zerobs_invoice #postbox-container-1 {
+  margin-top: 20px; }
+.post-type-zerobs_invoice .zbs-memo-box {
+  width: 50%;
+  display: none; }
+.post-type-zerobs_invoice .zbs-plus {
+  font-size: 21px;
+  font-weight: 100;
+  color: #428bca; }
+.post-type-zerobs_invoice .zbs-memo-ta {
+  width: 40%; }
+.post-type-zerobs_invoice .zbs-memo-hide {
+  font-size: 12px;
+  font-weight: 100;
+  color: #428bca;
+  cursor: pointer; }
+.post-type-zerobs_invoice .zbs-memo-hide:hover {
+  text-decoration: underline; }
+.post-type-zerobs_invoice .zbs-add-memo-trigger {
+  cursor: pointer; }
+.post-type-zerobs_invoice .zbs-italic {
+  font-style: italic;
+  font-weight: 100; }
+.post-type-zerobs_invoice .zbs-file-types {
+  text-transform: uppercase;
+  font-weight: 900; }
+.post-type-zerobs_invoice .wh-logo-set {
+  width: 100%;
+  position: relative;
+  display: none; }
+  .post-type-zerobs_invoice .wh-logo-set .zbs-remove, .post-type-zerobs_invoice .wh-logo-set .zbs-update {
+    cursor: pointer; }
+  .post-type-zerobs_invoice .wh-logo-set img {
+    max-width: 80%; }
+  .post-type-zerobs_invoice .wh-logo-set .zbs-logo-options {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -15%;
+    font-size: 14px; }
+.post-type-zerobs_invoice .wh-logo-set {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 12px; }
+.post-type-zerobs_invoice .wh-logo-set:hover .zbs-logo-options {
+  display: block; }
+.post-type-zerobs_invoice .wh-logo {
+  margin-top: 20px;
+  padding: 30px;
+  width: 100%;
+  background: aliceblue;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  border: 1px solid #428bca;
+  cursor: pointer; }
+  .post-type-zerobs_invoice .wh-logo .fa {
+    color: #428bca;
+    margin-right: 5px;
+    font-size: 40px;
+    font-weight: 100; }
+  .post-type-zerobs_invoice .wh-logo .wh-logo-text {
+    font-weight: 300;
+    color: #428bca;
+    font-size: 18px;
+    margin-left: 20px;
+    position: absolute;
+    top: 63px; }
+
+#zbsInvoiceActionBlocker {
+  position: absolute;
+  top: 11px;
+  right: 85px;
+  width: 200px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.74);
+  text-align: center;
+  line-height: 31px; }
+
+.wh-metatab {
+  margin-bottom: 10px !important; }
+  .wh-metatab .wh-large label {
+    font-size: 18px;
+    font-weight: 100; }
+
+#zbswhPDFNotice {
+  position: absolute;
+  top: -23px;
+  right: 160px;
+  text-align: right;
+  width: 200px;
+  background: #FFF;
+  padding: 10px;
+  border: 1px solid #428bca;
+  z-index: 10000;
+  border-radius: 5px; }
+  #zbswhPDFNotice .zbsCloseThisAndLog {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 16px; }
+  #zbswhPDFNotice .zbsCloseThisAndLog:hover {
+    cursor: pointer;
+    color: green; }
+
+.zbs-invoice-actions-bottom {
+  border-top: 1px solid #ddd;
+  background: #f5f5f5;
+  margin-top: 20px;
+  padding: 2px;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: -12px;
+  padding-bottom: 12px;
+  padding-top: 10px; }
+
+.zbs-actions-side {
+  margin-top: 15px; }
+
+.zbs-what {
+  font-size: 15px;
+  line-height: 26px; }
+
+#zbs-send-test {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 100px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px; }
+
+#zbs-modal-invoice-test {
+  margin-top: 10px;
+  margin-bottom: 13px; }

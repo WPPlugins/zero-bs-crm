@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Invoice Preview</title>
+	<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+    <link rel='stylesheet' id='invcss'  href='###CSS###' type='text/css' media='all' />
+    <style>
+    .bottom-row:last-child{
+    	border-bottom: 0px solid white !important;
+    }
+    </style>
+</head>
+<body class="zbs-invoice-preview post-type-zerobs_invoice previnvzbs">
+	<div class='container' style="max-width:1200px;margin-left:auto;margin-right:auto;">
+            <div id="zbs_invoice_alerts">
+                <div id="zbs_success"><i class="fa fa-check-circle" aria-hidden="true"></i> <span></span></div>
+            </div>
+
+            <div id="zbs_invoice_actions">
+                <div class='zbs-invoice-status'>
+                </div>
+            </div>
+            <div id="zbs_top_wrapper">
+                <div id="zbs_invoice_logos" style="width:50%;float:left">
+                    <div class="wh-logo-set ###LOGOCLASS###">
+                        <img id="wh-logo-set-img" src="###LOGOURL###" style="max-width:50%;"/>
+                    </div>
+                </div>
+
+                <div class='zbs-invoice-topper' style="
+    width: 50%;
+    float: right;
+    text-align: right;
+">
+                    <table class="form-table" style="
+    text-align: right;
+    float: right;
+">
+                    <tr class="wh-large zbs-invoice-number"><th><label for="no">Invoice Number:</label></th> 
+                        <td>###INVNOSTR###</td>
+                    </tr>
+                    <tr class="wh-large"><th><label for="date">Invoice Date:</label></th>
+                        <td>###INVDATESTR###</td>
+                    </tr>
+                    <tr class="wh-large"><th><label for="Reference">Reference:</label></th>
+                        <td>###REF###</td>
+                    </tr>
+                    <tr class="wh-large"><th><label for="due">Due date:</label></th>
+                        <td>###DUEDATE###</td>
+                    </tr>
+
+
+                 </table>
+                </div>
+            </div>
+            
+            <div class='clear' style="clear:both"></div>
+
+            <div id='zbs-business-info-wrapper'>
+                <div class="business-info ###BIZCLASS###">
+                    ###BIZINFOTABLE###
+      	        </div>
+            </div>
+
+
+        <div class="clear"></div>
+
+        <div id="zbs-invoice-items">
+            <table class='table' style="width:100%">
+                <thead style="border:1px solid #ccc;background:#f5f5f5;padding: 20px;line-height: 30px;font-weight: 100;">
+                    <th style="font-weight:100">Description</th>
+                    ###TABLEHEADERS###
+                    <th class="ri" style="font-weight:100">Amount</th>
+                </thead>
+                <div class='zbs-table-block'>
+                    ###LINEITEMS###
+                </div>
+            </table>
+        </div>
+
+        ###TOTALSTABLE###
+        
+
+        ###PARTIALSTABLE###
+         
+</div> <!-- end container -->
+
+</body>
+</html>
